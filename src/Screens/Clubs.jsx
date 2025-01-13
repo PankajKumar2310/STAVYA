@@ -38,7 +38,8 @@ export default function Clubs() {
         <Clubscard
           image={stvyalogo}
           clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae. lorem
+          "
         />
         <Clubscard
           image={stvyalogo}
