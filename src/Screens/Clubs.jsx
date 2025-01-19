@@ -8,7 +8,14 @@ import chakra05 from '../images/chakra05.png'
 import chakra08 from '../images/chakra08.png'
 import chakra09 from '../images/chakra09.png'
 import design from '../images/design.png'
-import profile from '../images/profile.jpg'
+import capturelogo from '../images/capturelogo.png'
+import artslogo from '../images/artslogo.png'
+import eloquencelogo from '../images/eloquencelogo.png'
+import musiclogo from '../images/musiclogo.png'
+import essencelogo from '../images/essencelogo.png'
+import debatelogo from '../images/debatelogo.png'
+import beatslogo from '../images/beatslogo.png'
+
 
 export default function Clubs() {
   return (
@@ -31,35 +38,41 @@ export default function Clubs() {
 
       <div className="container">
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          image={capturelogo}
+          clubname="Captur: Photography Club"
+          clubdescription="Capture is the Photography Club of IIITV-ICD. This club consists of photo enthusiasts who are willing to showcase the best of their works. You will find a fine blend of people who are well technically read in the field of photography."
         />
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae. lorem
+          image={eloquencelogo}
+          clubname="Eloquence: Drama Club"
+          clubdescription="Eloquence is the Drama Club of IIITV-ICD. This club is responsible to conducts all the events that consists of skits, plays and much more. You will find people here who have been actively engaged with the acting fraternities across the board. 
           "
         />
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          image={artslogo}
+          clubname="Genesis: Arts Club"
+          clubdescription="Genesis is the Art Club of IIITV-ICD. Since its inception, the commune of the club has been growing at an unprecedented rate. You will find people who share artistic interests and strive to fabric Genesis an arena of colors."
         />
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          image={musiclogo}
+          clubname="Vehemence: Music Club"
+          clubdescription="Vehemence is the Music Club of IIITV-ICD. It is the go-to club for all the music maniacs out there. It is a wholesome community of people who creates music and pledges to enrich everyone on every musical note possible."
+        />
+
+        <Clubscard
+          image={beatslogo}
+          clubname="Beats: Dance Club"
+          clubdescription="Beats, the Dance Club of IIITV-ICD, offers a platform to express your inner emotions and rediscover the pure joy of dancing. Though we come from diverse cultures, our hearts synchronize as we connect through the art of movement."
         />
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          image={essencelogo}
+          clubname="Essence: Poetry Club"
+          clubdescription="Essence is the literary club of IIITV-ICD, uniting readers, writers, and storytellers. It nurtures creativity and fosters a love for literature. The club celebrates the beauty of language and words. From poets to budding authors."
         />
         <Clubscard
-          image={stvyalogo}
-          clubname="Photography club"
-          clubdescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum qui asperiores quas a dolores labore nesciunt porro alias sit dolor, consectetur magni nisi quae."
+          image={debatelogo}
+          clubname="Uktam: Orators Society"
+          clubdescription="Uktam is the oratory club of IIIT-VICD.The club focuses on encouraging constructive discussions and debates regarding various subjects including but not limited to societal,economic,philosophical and environment issues."
         />
       </div>
     </>

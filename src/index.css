@@ -9,7 +9,10 @@ body {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
-  background: linear-gradient(90deg, #000000, #737373);
+  /* background: linear-gradient(90deg, #000000, #737373); */
+
+
+  background: #000000;
   font-family: 'Standerd-Regular';
 }
 
@@ -46,4 +49,19 @@ body {
 @font-face {
   font-family: 'PankajThin-BgRV';
   src: url(Fonts/PankajThin-BgRV.ttf);
+}
+
+@font-face {
+  font-family: 'Sakana';
+  src: url(Fonts/Sakana.ttf);
+}
+
+@font-face {
+  font-family: 'AstaghfirullohDemoRegular';
+  src: url(Fonts/AstaghfirullohDemoRegular.ttf);
+}
+
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url(Fonts/GlacialIndifference-Regular.otf);
 }

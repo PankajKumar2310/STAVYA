@@ -1,108 +1,17 @@
-/* Parent container to make cards row-wise */
 .member-data {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   
-}
+    max-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
 
-.membercard-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #000;
-    color: #fff;
-    border-radius: 100px;
-    /* overflow: hidden; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 40%;
-    height: 250px;
-    margin: 30px;
-}
-
-.membercard-image img {
-    width: 150px;
-    height: 100%;
-    object-fit: cover;
-}
-
-.membercard-details {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    .membercard-social {
+    .special {
         display: flex;
-        gap: 15px;
-        justify-content: start;
-        align-items: center;
-        /* margin-top: 10px; */
-    }
-
-    .membercard-social a {
-        display: flex;
+        width: 100%;
         justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        background: transparent;
-        border: 2px solid #C70039;
-        ;
-        border-radius: 50%;
-        font-size: 10px;
-        color: #C70039;
-        text-decoration: none;
-        transition: 0.5s ease;
-        animation: slideLeft 1s ease forwards;
-        animation-delay: calc(0.2s * var(--i));
     }
-
-    .membercard-social a:hover {
-        background: white;
-        color: #000;
-        /* box-shadow: 0 0 20px #0ef; */
-    }
-
-}
-
-.membercard-position {
-    color: #C70039;
-    width: fit-content;
-    font-size: 2.5rem;
-    margin-bottom: 8px;
-    letter-spacing: 0.2rem;
-    font-weight: 600;
-    font-family: ' Wasted-Vindey.ttf';
-}
-
-.membercard-name {
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 8px;
-}
-
-.membercard-batch {
-    letter-spacing: 0.1rem;
-    /* background-color: red; */
-    width: fit-content;
-    margin-bottom: 8px;
-    font-size: 1rem;
-}
-
-.membercard-description {
-    /* background-color: red; */
-    margin-bottom: 8px;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
-.membercard-contact {
-    /* background-color: red; */
-    width: fit-content;
-    margin-bottom: 8px;
-    letter-spacing: 1px;
-    font-size: 1rem;
 }
 
 
@@ -110,7 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     background-color: rgb(0, 0, 0);
 
     h3 {
@@ -126,11 +34,12 @@
     position: relative;
     text-align: center;
 }
+
 .M-main-text {
     font-size: 50px;
     font-weight: bold;
     color: white;
-    letter-spacing:4px;
+    letter-spacing: 4px;
 }
 
 .M-sub-text {
@@ -146,6 +55,98 @@
     text-transform: uppercase;
     background-color: #000;
 }
+
+.memtext {
+
+    h1 {
+        /* background-color: red; */
+        font-size: 2rem;
+        letter-spacing: 1px;
+        margin: 0 0 0 2px;
+        font-family: 'ArgentumSans-Black';
+        color: rgb(255, 111, 0);
+    }
+
+    h2 {
+        /* background-color: antiquewhite; */
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+        margin: 0 0 0 4px;
+        color: rgb(255, 111, 0);
+    }
+
+    h5 {
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        font-weight: 100;
+        margin: 0 0 0 15px;
+        font-family: 'Roundelay-Thin';
+        color: rgb(255, 111, 0);
+    }
+
+    h4 {
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        font-weight: 100;
+        margin: 0 0 0 18px;
+        font-family: 'Roundelay-Thin';
+        color: rgb(255, 111, 0);
+    }
+
+    p {
+        letter-spacing: 1.4px;
+        font-size: 0.8rem;
+        /* margin: 5px 0 10px 0; */
+        color: rgb(255, 111, 0);
+    }
+
+    .email {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        margin: 0 0 0 33px;
+        color: rgb(255, 111, 0);
+        font-family: 'Roundelay-Thin';
+    }
+
+    div {
+        /* background-color: red; */
+        display: flex;
+        gap: 10px;
+        width: fit-content;
+        margin-left: 70px;
+    }
+
+    a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        /* border: 2px solid #C70039; */
+        border-radius: 50%;
+        font-size: 5px;
+        color: #fff;
+        text-decoration: none;
+        transition: background 0.5s ease, color 0.5s ease;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc(0.2s * var(--i));
+    }
+
+    a:hover {
+        background: white;
+        color: #000;
+    }
+
+
+    a:hover {
+        background: white;
+        color: #000;
+    }
+
+
+}
+
 
 /*========images-handle============*/
 
@@ -205,4 +206,102 @@
         margin: 70% 20% 0 0;
     }
 
+}
+
+.memcard {
+    opacity: 1;
+    width: fit-content;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .upper {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        left: -100%;
+        opacity: 0.2;
+        background-color: black;
+    }
+
+    .lower {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        left: -100%;
+        opacity: 0.2;
+        background-color: black;
+    }
+
+    .memtext {
+        opacity: 0;
+        z-index: 10;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        display: flex;
+        height: 50%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 4px;
+        margin-bottom: 0;
+        padding-left: 5px;
+        /* background-color: red; */
+    }
+}
+
+.memcard:hover {
+    img {
+        opacity: 0.5;
+    }
+
+    .memtext {
+        animation-name: getup;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    .upper {
+        animation-name: moveright;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.13s;
+    }
+
+    .lower {
+        animation-name: moveright;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes moveright {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes getup {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

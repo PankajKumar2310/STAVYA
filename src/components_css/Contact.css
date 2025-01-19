@@ -9,11 +9,12 @@
 
     .chakra09 {
         position: absolute;
-        width: 45%;
-        left: 50%;
-        top: 150px;
+        width: 25%;
+        left: 900px;
+        top: 40px;
         /* bottom: 0; */
         opacity: 0.2;
+        background-color: red;
         animation: rotateImage 15s linear infinite;
         filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
 

@@ -6,12 +6,12 @@
         font-size: 1.5rem;
         letter-spacing: 5px;
         color: white;
-        margin: 0 0 0 12%;
+        margin: 0 0 0 10%;
     }
 
     .about-line {
         width: 25%;
-        height: 2px;
+        height: 2.5px;
         opacity: 0.4;
         background-color: #ffffff;
         border: none;
@@ -33,8 +33,9 @@
 
     .dp-01 {
         position: absolute;
-        opacity: 0.2;
+        opacity: 0.3;
         width: 15vw;
+        margin: 0 0 0 8px;
         filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
     }
 
@@ -47,7 +48,7 @@
 
     .para-01 {
         /* background-color: red; */
-        margin: 15px 0 30px 25px;
+        margin: 10px 0 30px 40px;
         letter-spacing: 1px;
         font-size: 1rem;
         text-align: start;
@@ -58,7 +59,7 @@
 
     .para-02 {
         /* background-color: yellow; */
-        margin: 0 0 30px 25px;
+        margin: 0 0 30px 40px;
         letter-spacing: 1px;
         font-size: 1rem;
         text-align: start;
@@ -69,7 +70,7 @@
 
     .para-03 {
         /* background-color: green; */
-        margin: 20px 0 30px 25px;
+        margin: 15px 0 30px 40px;
         letter-spacing: 1px;
         font-size: 1rem;
         text-align: start;
@@ -200,4 +201,4 @@
         filter: invert(100%) brightness(10000%);
     }
 
-} 
+}

@@ -10,19 +10,22 @@
 }
 
 .card {
-    width: 48%;
-    height: 400px;
+    width: 30%;
+    height: 300px;
     perspective: 1000px;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+
+
 }
+
 
 .front span {
     color: white;
-    font-size: 5rem;
-    letter-spacing: 0.6rem;
-    font-family: 'Kugile_Demo';
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-family: 'GlacialIndifference-Regular';
 }
 
 .card .front,
@@ -47,14 +50,22 @@
 }
 
 .card .back {
-    background-color: #C70039;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+    p {
+        letter-spacing: 1.4px;
+        font-size: 1rem;
+        text-align: start;
+        margin: 5px 0 10px 0;
+
+    }
 }
 
 .card:hover .front {
@@ -75,14 +86,15 @@
 }
 
 .card-button-div button {
-    padding: 15px 24px;
-    background-color: #C70039;
+    padding: 8px 16px;
+    background-color: #0000;
     border: 2px solid #C70039;
     cursor: pointer;
+    letter-spacing: 1px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     transition: all 0.3s ease;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 3px 6px rgba(0, 0, 0, 0.3);
 }
@@ -100,14 +112,14 @@
     box-shadow: 0 0 0 4px rgba(72, 144, 226, 0.6), 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-.event-data {
+/* .event-data {
     padding: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
+} */
 
 
 .E-member-page {
