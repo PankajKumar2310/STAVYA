@@ -7,6 +7,7 @@ import deepjyoti02 from '../images/deepjyoti02.png';
 import chakra02 from '../images/chakra02.png'
 import { Link, useNavigate } from "react-router-dom";
 import '../components_css/Glimpse.css'
+import '../components_res/glimpses.css'
 
 const images = [
     { src: require("../images/01.jpg"), alt: "loading" },

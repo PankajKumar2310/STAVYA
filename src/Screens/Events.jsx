@@ -35,7 +35,7 @@ export default function Events() {
         <hr className='E-line' />
         <img className='E-chakra08' src={chakra08} />
         <img className='E-chakra09' src={chakra09} />
-        <img className='E-design' src={design} />
+        {/* <img className='E-design' src={design} /> */}
       </div>
 
       <div className="E-member-page">

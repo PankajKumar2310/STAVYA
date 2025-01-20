@@ -2,6 +2,7 @@ import React from 'react';
 import Clubscard from '../components_jsx/Clubscard';
 import stvyalogo from '../images/stavyalogo.png';
 import '../components_css/Club.css';
+import '../components_res/Clubs.css';
 
 import deepjyoti02 from '../images/deepjyoti02.png'
 import chakra05 from '../images/chakra05.png'
@@ -33,7 +34,7 @@ export default function Clubs() {
         <hr className='C-line' />
         <img className='C-chakra08' src={chakra08} />
         <img className='C-chakra09' src={chakra09} />
-        <img className='C-design' src={design} />
+        {/* <img className='C-design' src={design} /> */}
       </div>
 
       <div className="container">

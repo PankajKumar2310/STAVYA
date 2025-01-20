@@ -1,0 +1,97 @@
+@media (max-width:500px){
+
+    .juniors-title {
+        font-size: 1.5rem;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .rules-section {
+    
+        .prizes {
+    
+            font-size: 1.5rem;
+            width: fit-content;
+
+            span {
+                font-size: 1.5rem;
+                color: rgb(255, 128, 0);
+            }
+        }
+    
+        .venue {
+            margin-top: 40px;
+            font-weight: 100;
+    
+            span {
+                font-weight: 600;
+                color: rgb(255, 128, 0);
+                font-size: 1.5rem;
+            }
+        }
+    
+    
+        .timing {
+    
+            .time {
+                font-weight: 100;
+                font-size: 0.8rem;
+    
+                span {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+    
+                }
+            }
+    
+            .date {
+                margin-top: 15px;
+                font-weight: 100;
+                font-size: 0.8rem;
+    
+                span {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+    
+            .note {
+                font-weight: 100;
+                font-size: 0.8rem;
+    
+                span {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    
+    }
+
+    .organizers-section {
+
+        margin-bottom: 10%;
+
+        h2 {
+            width: fit-content;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            font-size: 1.8rem;
+        }
+    
+        img {
+            border-radius: 100%;
+        }
+    }
+
+    .organizer-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .register-button {
+        font-size: 1rem;
+    }
+}
