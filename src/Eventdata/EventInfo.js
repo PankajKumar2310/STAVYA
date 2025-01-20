@@ -1,34 +1,34 @@
 module.exports = {
-    "Pixellence 3.0": {
-        "organisers": {
-            "name1": "Kamal Meena",
-            "image1": "kamal",
-            "name2": "Akarshan Kumar",
-            "image2": "akarshan",
-            "name3": "Kshitiz Gangwar",
-            "image3": "kshitiz"
+        "Pixellence 3.0": {
+            "organisers": {
+                "name1": "Kamal Meena",
+                "image1": "kamal01",
+                "name2": "Akarshan Kumar",
+                "image2": "akarshan01",
+                "name3": "Kshitiz Gangwar",
+                "image3": "kshitiz01"
+            },
+            "prize": "1,000",
+            "venue": "Online submission",
+            "date": "26/01/2025 to 01/02/2025",
+            "time": "Submissions open 24x7 during the event dates",
+            "note": "The event is open to students of all colleges.",
+            "RegisterLink": "https://www.shutterstock.com/featured-collections/dark-neon-glow-324702124",
+            "Rules": [
+                "Photographs must be original and not plagiarised.",
+                "In case of any discrepancies, the organisers' decision will be final and binding.",
+                "Any content that is offensive, manipulative, or violates the theme is strictly prohibited."
+            ],
+            "description": "A photography competition to test participants' skills across multiple themes, including a workshop."
         },
-        "prize": "1,000",
-        "venue": "Online submission",
-        "date": "26/01/2025 to 01/02/2025",
-        "time": "Submissions open 24x7 during the event dates",
-        "note": "The event is open to students of all colleges.",
-        "RegisterLink": "/",
-        "Rules": [
-            "Photographs must be original and not plagiarised.",
-            "In case of any discrepancies, the organisers' decision will be final and binding.",
-            "Any content that is offensive, manipulative, or violates the theme is strictly prohibited."
-        ],
-        "description": "A photography competition to test participants' skills across multiple themes, including a workshop."
-    },
     "Nrityakala": {
         "organisers": {
             "name1": "Diya Bhati",
-            "image1": "diya",
+            "image1": "diya01",
             "name2": "Saransh Naik",
-            "image2": "saransh",
+            "image2": "saransh01",
             "name3": "Pooja Sahrawat",
-            "image3": "pooja"
+            "image3": "pooja01"
         },
         "prize": "6,000",
         "venue": "IIITV-ICD Event Ground, Education Hub",
@@ -52,11 +52,11 @@ module.exports = {
     "Chitrakala": {
         "organisers": {
             "name1": "Aripta",
-            "image1": "arpita",
+            "image1": "arpita01",
             "name2": "Mrunal Nikam",
-            "image2": "murnal",
+            "image2": "murnal01",
             "name3": "Harsh Kukadiya",
-            "image3": "harsh"
+            "image3": "harsh01"
         },
         "prize": "1,500",
         "venue": "Online submission",
@@ -78,11 +78,11 @@ module.exports = {
     "Rangoli Clash": {
         "organisers": {
             "name1": "Aripta",
-            "image1": "arpita",
+            "image1": "arpita01",
             "name2": "Mrunal Nikam",
-            "image2": "murnal",
+            "image2": "murnal01",
             "name3": "Harsh Kukadiya",
-            "image3": "harsh"
+            "image3": "harsh01"
         },
         "prize": "3,000",
         "venue": "IIITV-ICD premises, Education Hub",
@@ -104,11 +104,11 @@ module.exports = {
     "Dub Ka Darbar": {
         "organisers": {
             "name1": "Nitin Kumar Oberoi",
-            "image1": "nitin",
+            "image1": "nitin01",
             "name2": "Poojan Simariya",
-            "image2": "poojan",
+            "image2": "poojan01",
             "name3": "Anurag Daf",
-            "image3": "anurag"
+            "image3": "anurag01"
         },
         "prize": "2,300",
         "venue": "Online submission",
@@ -132,11 +132,11 @@ module.exports = {
     "Bollywood Quiz": {
         "organisers": {
             "name1": "Nitin Kumar Oberoi",
-            "image1": "nitin",
+            "image1": "nitin01",
             "name2": "Poojan Simariya",
-            "image2": "poojan",
+            "image2": "poojan01",
             "name3": "Anurag Daf",
-            "image3": "anurag"
+            "image3": "anurag01"
         },
         "prize": "2,500",
         "venue": "Room No. 2125",
@@ -157,11 +157,11 @@ module.exports = {
     "Persona Rewind": {
         "organisers": {
             "name1": "Nitin Kumar Oberoi",
-            "image1": "nitin",
+            "image1": "nitin01",
             "name2": "Poojan Simariya",
-            "image2": "poojan",
+            "image2": "poojan01",
             "name3": "Anurag Daf",
-            "image3": "anurag"
+            "image3": "anurag01"
         },
         "prize": "3,600",
         "venue": "Event Ground, IIITV-ICD.",
@@ -183,11 +183,11 @@ module.exports = {
     "Antakshari": {
         "organisers": {
             "name1": "Naman Singla",
-            "image1": "naman",
+            "image1": "naman01",
             "name2": "Ankit Mishra",
-            "image2": "ankit_m",
+            "image2": "ankit01",
             "name3": "Jasmeen Kaur",
-            "image3": "jasmeen"
+            "image3": "jasmeen01"
         },
         "prize": "5,400",
         "venue": "Event Ground, IIITV-ICD",
@@ -207,13 +207,13 @@ module.exports = {
         "description": "Antakshari is a fun-filled music game where teams connect songs through lyrics, showcasing their creativity and love for Indian music."
     },
     "Urban Harmony": {
-        "organisers": {
+       "organisers": {
             "name1": "Naman Singla",
-            "image1": "naman",
+            "image1": "naman01",
             "name2": "Ankit Mishra",
-            "image2": "ankit_m",
+            "image2": "ankit01",
             "name3": "Jasmeen Kaur",
-            "image3": "jasmeen"
+            "image3": "jasmeen01"
         },
         "prize": "2,400",
         "venue": "Event Ground, IIITV-ICD",
@@ -234,11 +234,11 @@ module.exports = {
     "Urban Lens": {
         "organisers": {
             "name1": "Kamal Meena",
-            "image1": "kamal",
+            "image1": "kamal01",
             "name2": "Akarshan Kumar",
-            "image2": "akarshan",
+            "image2": "akarshan01",
             "name3": "Kshitiz Gangwar",
-            "image3": "kshitiz"
+            "image3": "kshitiz01"
         },
         "prize": "2,300",
         "venue": "Online submission",
@@ -256,11 +256,11 @@ module.exports = {
     "Debate Competition": {
         "organisers": {
             "name1": "Rituraj Kumar",
-            "image1": "rituraj",
+            "image1": "rituraj01",
             "name2": "Balasubramanian K",
-            "image2": "bala",
+            "image2": "bala01",
             "name3": "Sriya Reddy",
-            "image3": "sriya"
+            "image3": "sriya01"
         },
         "prize": "3,300",
         "venue": "Event Ground, IIITV-ICD",
@@ -278,13 +278,13 @@ module.exports = {
         "description": "A two-round debate competition for IIITV-ICD students, offering a platform for intellectual arguments and critical thinking."
     },
     "Model United Nation": {
-        "organisers": {
+      "organisers": {
             "name1": "Rituraj Kumar",
-            "image1": "rituraj",
+            "image1": "rituraj01",
             "name2": "Balasubramanian K",
-            "image2": "bala",
+            "image2": "bala01",
             "name3": "Akshat Sharma",
-            "image3": "akshat"
+            "image3": "akshat01"
         },
         "prize": "3,000",
         "venue": "Event Ground, IIITV-ICD",
@@ -304,11 +304,11 @@ module.exports = {
     "Shashwat": {
         "organisers": {
             "name1": "Harshit Soni",
-            "image1": "harshit",
+            "image1": "harshit01",
             "name2": "Shailendra Singh",
-            "image2": "shailendra",
+            "image2": "salendra01",
             "name3": "Udit Singh",
-            "image3": "udit"
+            "image3": "udit01"
         },
         "prize": "4,300",
         "venue": "Event Ground, IIITV-ICD",
@@ -328,13 +328,13 @@ module.exports = {
     },
 
     "ShabdSangam": {
-        "organisers": {
+       "organisers": {
             "name1": "Harshit Soni",
-            "image1": "harshit",
+            "image1": "harshit01",
             "name2": "Shailendra Singh",
-            "image2": "salendra",
+            "image2": "salendra01",
             "name3": "Udit Singh",
-            "image3": "udit"
+            "image3": "udit01"
         },
         "prize": "4,300",
         "venue": "Event Ground, IIITV-ICD",
@@ -357,11 +357,11 @@ module.exports = {
     "Avlekha": {
         "organisers": {
             "name1": "Harshit Soni",
-            "image1": "harshit",
+            "image1": "harshit01",
             "name2": "Shailendra Singh",
-            "image2": "salendra",
+            "image2": "salendra01",
             "name3": "Udit Singh",
-            "image3": "udit"
+            "image3": "udit01"
         },
         "prize": "2,200",
         "venue": "Event Ground, IIITV-ICD",
@@ -381,11 +381,11 @@ module.exports = {
     "Cultural Night": {
         "organisers": {
             "name1": "Ajaydeep Rawat",
-            "image1": "ajaydeep",
+            "image1": "ajaydeep01",
             "name2": "Rajat Thakur",
-            "image2": "rajat",
+            "image2": "rajat01",
             "name3": "Kumar Shantanu",
-            "image3": "shantanu"
+            "image3": "shantanu01"
         },
         "prize": "0",
         "venue": "Event Ground, IIITV-ICD",

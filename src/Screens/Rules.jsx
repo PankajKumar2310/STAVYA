@@ -4,20 +4,25 @@ import '../components_res/Rules.css'
 import { useLocation } from "react-router-dom";
 import eventInfo from '../Eventdata/EventInfo'
 import { li } from "framer-motion/client";
-const Juniors = () => {
+const Rules = () => {
     const eventname = useLocation().state
     // alert(eventname)
+
+    const handleRegisterClick = () => {
+        window.location.href = eventInfo.RegisterLink;
+    };
+
 
     const getImage = (path) => {
         return require(`../images/${path}.jpg`)
     }
     return (
-        <div className="juniors-container">
-            <h1 className="juniors-title">Rules And Registration</h1>
+        <div className="rules-container">
+            <h1 className="rules-title">Rules And Registration</h1>
 
-            <div className="juniors-content">
+            <div className="rules-content">
                 <div className="rules-section">
-                    <h2>Rules:</h2>
+                    <h2><span>Rules:</span></h2>
                     {
                         eventInfo[eventname]?.Rules?.map((item) => {
                             return <li>{item}</li>
@@ -34,7 +39,7 @@ const Juniors = () => {
 
                 <div className="organizers-section">
                     <h2>Organizers:</h2>
-                    <div className="organizer-list">    
+                    <div className="organizer-list">
                         <div className="organizer" style={{ overflow: "hidden" }}>
                             <div className="organizer-image"><img style={{ width: "inherit" , height: "inherit"}} src={getImage(eventInfo[eventname].organisers["image1"])} alt="Organizer-01" /></div>
                             <p>{eventInfo[eventname].organisers["name1"]}</p>
@@ -54,4 +59,4 @@ const Juniors = () => {
     );
 };
 
-export default Juniors;
+export default Rules;

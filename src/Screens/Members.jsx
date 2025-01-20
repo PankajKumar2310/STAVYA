@@ -27,7 +27,10 @@ export default function Members() {
         <hr className='M-line' />
         <img className='M-chakra08' src={chakra08} />
         <img className='M-chakra09' src={chakra09} />
+<<<<<<< Updated upstream
         {/* <img className='M-design' src={design} /> */}
+=======
+>>>>>>> Stashed changes
       </div>
 
       <div className="M-member-page">

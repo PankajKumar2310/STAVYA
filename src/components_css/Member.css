@@ -178,7 +178,7 @@
 
     .M-chakra08 {
         position: absolute;
-        width: 65%;
+        width: 50%;
         margin: 5% -5% 0;
         opacity: 0.1;
         z-index: -1;
@@ -190,22 +190,12 @@
         position: absolute;
         width: 50%;
         opacity: 0.1;
-        margin: 40% 0 0 0;
+        margin: 20% 0 0 0;
         left: 55%;
         z-index: -1;
         filter: invert(100%) brightness(1000%);
         animation: rotateImage 15s linear infinite;
     }
-
-    .M-design {
-        position: absolute;
-        left: 15%;
-        z-index: -1;
-        filter: invert(0%) brightness(0%) contrast(100%);
-        opacity: 0.2;
-        margin: 70% 20% 0 0;
-    }
-
 }
 
 .memcard {
@@ -229,7 +219,7 @@
         height: 50%;
         top: 0;
         left: -100%;
-        opacity: 0.2;
+        opacity: 0.3;
         background-color: black;
     }
 
@@ -239,7 +229,7 @@
         height: 50%;
         top: 50%;
         left: -100%;
-        opacity: 0.2;
+        opacity: 0.3;
         background-color: black;
     }
 
@@ -263,7 +253,7 @@
 
 .memcard:hover {
     img {
-        opacity: 0.5;
+        opacity: 0.2;
     }
 
     .memtext {
