@@ -13,6 +13,7 @@ import design from '../images/design.png'
 import dummy from '../images/profile.jpg'
 import { div } from 'framer-motion/client';
 import '../components_css/Secxjsec.css';
+import '../components_res/Secxjsec.css';
 
 export default function Secxjsec() {
     const state = useLocation().state

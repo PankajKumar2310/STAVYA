@@ -7,6 +7,7 @@ import chakra07 from '../images/chakra07.png'
 import chakra09 from '../images/chakra09.png'
 import deepjyoti02 from '../images/deepjyoti02.png'
 import '../components_css/Contact.css'
+import '../components_res/Contact.css'
 
 
 export default function Contact() {
@@ -26,7 +27,7 @@ export default function Contact() {
                     <h2>Indian Institute of Information Technology Vadodara - International Campus Diu</h2>
                     <div className="anchor-cont">
 
-                        <div>
+                        <div className='link'>
                             <h6>Links</h6>
                             <hr className='link-line' />
                         </div>
@@ -38,7 +39,7 @@ export default function Contact() {
                         </div>
 
 
-                        <div>
+                        <div className='contact'>
                             <h6>Contacts</h6>
                             <hr className='link-line' />
                         </div>
@@ -46,7 +47,7 @@ export default function Contact() {
                             <h4 className='emailicon'> <EmailIcon style={{ width: '40px', marginBottom: "-8px" }} />example.com</h4>
                             <h4 className='emailicon'> <EmailIcon style={{ width: '40px', marginBottom: "-8px" }} />example.com</h4>
                             <h4 PhoneIcon className='phoneicon'><PhoneIcon style={{ width: '40px', marginBottom: "-8px" }} /> +91 0000000000 . +91 0000000000</h4>
-                            <h4 LocationOnIcon className='loctionicon'><LocationOnIcon style={{ width: '40px', marginBottom: "-8px" }} /> IIITV-ICD Eduaction Hub, New Kevdi ,Diu (U.T) 362520</h4>
+                            <h4 LocationOnIcon className='locationicon'><LocationOnIcon style={{ width: '40px', marginBottom: "-8px" }} /> IIITV-ICD Eduaction Hub, New Kevdi ,Diu (U.T) 362520</h4>
                         </div>
 
                     </div>

@@ -63,7 +63,10 @@ export default function Navbar() {
                     <MenuIcon onClick={handleMenuToggle} sx={{
                         fontSize: 40,
                         '@media (max-width: 768px)': {
-                            fontSize: 25,
+                            fontSize: 20,
+                        },
+                        '@media (max-width: 500px)': {
+                            fontSize: 15,
                         },
                         '@media (max-width: 390px)': {
                             fontSize: 25,

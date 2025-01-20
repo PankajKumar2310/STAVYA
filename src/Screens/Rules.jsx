@@ -1,5 +1,6 @@
 import React from "react";
 import '../components_css/Rules.css'
+import '../components_res/Rules.css'
 import { useLocation } from "react-router-dom";
 import eventInfo from '../Eventdata/EventInfo'
 import { li } from "framer-motion/client";
@@ -35,14 +36,14 @@ const Juniors = () => {
                     <h2>Organizers:</h2>
                     <div className="organizer-list">    
                         <div className="organizer" style={{ overflow: "hidden" }}>
-                            <div className="organizer-image"><img style={{ width: "inherit" }} src={getImage(eventInfo[eventname].organisers["image1"])} alt="Organizer-01" /></div>
+                            <div className="organizer-image"><img style={{ width: "inherit" , height: "inherit"}} src={getImage(eventInfo[eventname].organisers["image1"])} alt="Organizer-01" /></div>
                             <p>{eventInfo[eventname].organisers["name1"]}</p>
                         </div>
                         <div className="organizer">
-                            <div className="organizer-image"><img style={{ width: "inherit" }} src={getImage(eventInfo[eventname].organisers["image2"])} alt="Organizer-02" /></div>                            <p>{eventInfo[eventname].organisers["name2"]}</p>
+                            <div className="organizer-image"><img style={{ width: "inherit" , height: "inherit"}} src={getImage(eventInfo[eventname].organisers["image2"])} alt="Organizer-02" /></div>                            <p>{eventInfo[eventname].organisers["name2"]}</p>
                         </div>
                         <div className="organizer">
-                            <div className="organizer-image"><img style={{ width: "inherit" }} src={getImage(eventInfo[eventname].organisers["image3"])} alt="Organizer-03" /></div>                            <p>{eventInfo[eventname].organisers["name3"]}</p>
+                            <div className="organizer-image"><img style={{ width: "inherit" , height: "inherit"}} src={getImage(eventInfo[eventname].organisers["image3"])} alt="Organizer-03" /></div>                            <p>{eventInfo[eventname].organisers["name3"]}</p>
                         </div>
                     </div>
                 </div>

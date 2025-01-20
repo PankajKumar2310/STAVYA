@@ -58,35 +58,32 @@
 
 /*======member details*/
 
-.head-data {
+.back .head-data {
     h1 {
-        /* background-color: red; */
-        font-size: 3rem;
+        font-size: 2rem;
         letter-spacing: 1px;
         font-family: 'ArgentumSans-Black';
+        /* margin-top: 5%; */
     }
 
     h2 {
-        /* background-color: antiquewhite; */
-        letter-spacing: 1.5px;
-        font-size: 2.5rem;
-        margin-top: 0;
+        letter-spacing: 0.8px;
+        font-size: 1.5rem;
+        margin-bottom: 3%;
     }
 
     h4 {
-        letter-spacing: 1.5px;
-        font-size: 1.3rem;
+        letter-spacing: 0.8px;
+        font-size: 0.8rem;
         font-weight: 100;
         margin: -3px 0 0 0;
         font-family: 'Roundelay-Thin';
-        /* background-color: yellow; */
     }
 
     p {
-        letter-spacing: 1.4px;
-        font-size: 1rem;
-        margin: 5px 0 10px 0;
-        /* background-color: green; */
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        /* margin: 5px 0 10px 0; */
     }
 
     .email {
@@ -194,10 +191,10 @@
     align-items: center;
     background-color: rgb(0, 0, 0);
 
-    h3 {
+    /* h3 {
         font-size: 100px;
         font-weight: 1000;
-    }
+    } */
 }
 
 .sj-logo-container {
@@ -208,8 +205,8 @@
 }
 
 .sj-main-text {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 100px;
+    font-weight: 1000;
     color: white;
     letter-spacing: 2px;
 }

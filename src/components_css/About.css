@@ -147,7 +147,7 @@
         justify-content: center;
         align-items: center;
         filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
-        position: relative;
+        position: absolute;
         margin: 35% 0 0 5%;
         width: 50%;
         animation: rotateImage 15s linear infinite;

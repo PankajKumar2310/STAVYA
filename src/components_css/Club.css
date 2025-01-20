@@ -12,6 +12,7 @@
     position: relative;
     cursor: pointer;
     width: calc(33.33% - 20px);
+    height: auto;
 }
 
 .container .card .face {

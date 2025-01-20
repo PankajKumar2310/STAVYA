@@ -1,0 +1,34 @@
+@media (max-width: 500px) {
+    .C-image-div {
+    
+        .C-deep {
+            visibility: hidden;
+        }
+    
+        .C-stavya {
+            visibility: hidden;
+        }
+    
+        .C-line {
+            visibility: hidden;
+        }
+    
+        .C-chakra09 {
+            width: 35%;
+        }
+    
+    }
+
+    .container{
+        display: block;
+        margin-left: 1.5%;
+    }
+
+    .container .card {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+
+}
