@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -8,21 +8,19 @@ import chakra02 from '../images/chakra02.png'
 import { Link, useNavigate } from "react-router-dom";
 import '../components_css/Glimpse.css'
 
-const images = [
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
-    { src: require("../images/01.jpg"), alt: "loading" },
 
-
-];
+let images2 = []
+for (let i = 1; i <= 50; i++) {
+    images2.push({ src: require(`../images/glimp${i <= 9 ? 0 : ''}${i}.JPG`), alt: "loading" });
+}
 
 const ImageCarousel = () => {
+    const [isLastSlide, setIsLastSlide] = useState(false); // Track last slide
+    const handleCarouselChange = (state) => {
+        const isLast = state.currentSlide === state.totalItems - 1;
+        setIsLastSlide(isLast);
+    };
+
     const navigate = useNavigate()
     const responsive = {
         superLargeDesktop: {
@@ -67,12 +65,32 @@ const ImageCarousel = () => {
                 renderDotsOutside={true}
                 customDot={<CustomDot />} // Custom dot component
                 dotListClass="custom-dot-list"
+                rewind={true}
+                afterChange={handleCarouselChange} // Detect slide change
+
+            // arrows={false}
             >
-                {images.map((image, index) => (
+                {images2.map((image, index) => (
                     <div key={index}>
                         <img src={image.src} alt={image.alt} width={"80%"} />
                     </div>
                 ))}
+                {/* {images.map((image, index) => (
+                    <div key={index}>
+                        <img src={image.src} alt={image.alt} width={"80%"} />
+                    </div>
+                ))} */}
+                {/* {
+                    Array.from({ length: 40 }).map((_, i) => (
+                        <div key={i}>
+                            <img
+                                src={require(`../images/glimp${i + 11}.JPG`)}
+                                alt={`Image ${i}`}
+                                width="80%"
+                            />
+                        </div>
+                    ))
+                } */}
             </Carousel>
 
             <div className="button-div">
