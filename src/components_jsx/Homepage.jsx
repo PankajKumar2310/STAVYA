@@ -1,26 +1,27 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import chakra08 from '../images/chakra08.png';
 import chakra02 from '../images/chakra02.png';
 import chakra05 from '../images/design.png';
-import stavyalogo from '../images/stavyalogoo.png';
+import stavyalogo from '../images/stavyalogoo.png'; 
 import '../components_css/Homepage.css';
 import '../components_res/Homepage.css';
+// import '/Homepage.css';
 
 export default function Homepage() {
     const textRef = useRef(null);
     const imgDivRef = useRef(null);
     const paraRef = useRef(null);
-    const logoRef = useRef(null);  
-    const cultxRef = useRef(null);  
-    const shlokRef = useRef(null);  
+    const logoRef = useRef(null);
+    const cultxRef = useRef(null);
+    const shlokRef = useRef(null);
 
     useEffect(() => {
         const letters = textRef.current.querySelectorAll('.letter');
         const images = imgDivRef.current.querySelectorAll('img');
-        
-       
+
+
         gsap.fromTo(
             letters,
             { opacity: 0, y: 30 },
@@ -34,7 +35,7 @@ export default function Homepage() {
         );
 
         gsap.fromTo(
-            images[0], 
+            images[0],
             { x: '100%', opacity: 0 },
             {
                 x: '0%',
@@ -45,7 +46,7 @@ export default function Homepage() {
         );
 
         gsap.fromTo(
-            images[1], 
+            images[1],
             { scale: 0.8, opacity: 0 },
             {
                 scale: 1,
@@ -74,7 +75,7 @@ export default function Homepage() {
                 scale: 1,
                 duration: 1.5,
                 ease: "power3.out",
-                delay: 0.5, 
+                delay: 0.5,
             }
         );
 
@@ -110,11 +111,11 @@ export default function Homepage() {
                 opacity: 1,
                 y: 0,
                 duration: 1.5,
-                delay: 1, 
+                delay: 1,
                 ease: "power3.out",
             }
         );
-        
+
     }, []);
 
     return (
@@ -127,7 +128,7 @@ export default function Homepage() {
                     <img className='ch-img-08' src={chakra08} alt="chakra08" />
                     <img className='stvya-logo' ref={logoRef} src={stavyalogo} alt="stavyalogo" />
                 </div>
-                
+
                 {/* Text Section */}
                 <div className="home-text">
                     <h1 className='home-stvya' ref={textRef}>

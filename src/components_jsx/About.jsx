@@ -5,7 +5,7 @@ import eyes from '../images/eyes.png';
 import chakra04 from '../images/chakra04.png';
 import stavyalogo from '../images/stavyalogo.png';
 import '../components_css/About.css';
-import '../components_res/About.css'
+import '../components_res/About.css';
 
 // Framer Motion
 import { motion } from 'framer-motion';
@@ -34,7 +34,7 @@ export default function About() {
     <div className="about-main-div">
       {/* Section with Text Animation */}
       <motion.div
-        variants={fadeIn("up", 0.2)}
+        variants={fadeIn("up", 0.1)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.3 }}
@@ -46,7 +46,7 @@ export default function About() {
         <img className="img-eyes" src={eyes} alt="eyes" />
 
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 0.1)}
           className="para-01"
         >
           Stavya is the annual cultural festival of Indian Institute of Information Technology Vadodara-ICD Stavya
@@ -55,7 +55,7 @@ export default function About() {
         </motion.div>
 
         <motion.div
-          variants={fadeIn("right", 0.6)}
+          variants={fadeIn("right", 0.1)}
           className="para-02"
         >
           The Annual Cultural Festival of IIIT Vadodara-ICD gets its name from the Esperanto word "Stavya", meaning
@@ -65,7 +65,7 @@ export default function About() {
         </motion.div>
 
         <motion.div
-          variants={fadeIn("up", 0.8)}
+          variants={fadeIn("up", 0.1)}
           className="para-03"
         >
           Join us to celebrate creativity, join us, to celebrate Stavya !!
@@ -79,7 +79,7 @@ export default function About() {
         viewport={{ once: false, amount: 0.3 }}
         className="chakra-div"
       >
-    
+
         <motion.h4
           variants={fadeIn("right", 0.3)}
           className="ch-h4-01"
@@ -99,9 +99,16 @@ export default function About() {
           className="ch-h4-03"
         >
           <span className="span-03">7D+</span> long fest to participate
+          <motion.img
+            variants={fadeIn("right", 1.3)}
+            className="ch-04-03"
+            src={chakra04}
+            alt="chakra"
+
+          />
         </motion.h4>
 
-       
+
         <motion.img
           variants={fadeIn("right", 0.9)}
           className="ch-04-01"
@@ -114,12 +121,13 @@ export default function About() {
           src={chakra04}
           alt="chakra"
         />
-        <motion.img
+        {/* <motion.img
           variants={fadeIn("right", 1.3)}
           className="ch-04-03"
           src={chakra04}
           alt="chakra"
-        />
+          
+        /> */}
 
         <img className="dp-02" src={deepjyoti02} alt="deepjyoti02" />
         <hr className="dp-line" />

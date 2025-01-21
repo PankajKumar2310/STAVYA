@@ -1,166 +1,91 @@
-@media (max-width: 1500px) {
-    .homepage-main .stvya-logo {
-        background-color: greenyellow;
-        margin: -4.3% 0 0 32.2%;
-    }
+@media (max-width:420px) {
 
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 100%;
-    }
-}
-
-@media (max-width: 1490px) {
-    .homepage-main .stvya-logo {
-        background-color: greenyellow;
-        margin: -4.3% 0 0 32.2%;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 101%;
-    }
-}
-
-@media (max-width: 1480px) {
-    .homepage-main .stvya-logo {
-        background-color: green;
-        margin: -4.3% 0 0 32.3%;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 101%;
-    }
-}
-
-@media (max-width: 1470px) {
-    .homepage-main .stvya-logo {
-        background-color: red;
-        margin: -4.3% 0 0 32.5%;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 102%;
-    }
-}
-
-@media (max-width: 1450px) {
-    .homepage-main .stvya-logo {
-        background-color: skyblue;
-        margin: -4.3% 0 0 33%;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 103%;
-    }
-}
-
-@media (max-width: 1430px) {
-    .homepage-main .stvya-logo {
-        background-color: yellowgreen;
-        margin: -4.3% 0 0 33.7%;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 105%;
-    }
-}
-
-@media (max-width: 1400px) {
-    .homepage-main .img-div .ch-img-02 {
-        width: 39%;
-        margin: -17.5% 0 0 62%;
-    }
-
-    .homepage-main .img-div .ch-img-05 {
-        width: 34%;
-        margin: 20% 0 0 50%;
-    }
-
-    .homepage-main .img-div .ch-img-08 {
-        width: 55%;
-        margin: -13% 0 0 0;
-    }
-
-    .homepage-main .stvya-logo {
-        background-color: yellow;
-        margin: -4.3% 0 0 32.4%;
-    }
-
-    .home-text .home-stvya {
-        margin: 20% 0 0 10%;
-        font-size: 9.5rem;
-    }
-
-    .home-text .home-culxlit {
-        margin: -11% 30% 0 102%;
-    }
-
-    .home-text .home-shlok {
-        font-size: 1.4rem;
-        margin: 5px 0 0 14%;
-    }
-
-    .home-text .home-para {
-        margin: 2% 0 0 10%;
-    }
-
-    .home-text .M-button {
-        margin: 20px 0 0 100%;
-    }
-}
-
-@media (max-width: 700px) {
-    .homepage-main .stvya-logo {
-        background-color: red;
-        margin: -4.3% 0 0 33.7%;
-    }
-
-    .home-text .home-culxlit {
-        background-color: red;
-        margin: -11% 30% 0 105%;
-    }
-}
-
-@media (max-width: 500px) {
-    body {
-        /* background: linear-gradient(90deg, #000000, #737373); */
-    }
-
-    .homepage-main {
-        margin-top: 15%;
+    .homepage-main{
         height: 30vh;
     }
+    .home-text {
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
 
-    .homepage-main .stvya-logo {
-        width: 22%;
-        background-color: transparent;
-        margin: -8.5% 0 0 41.5%;
+        .home-stvya {
+            font-size: 3rem;
+            margin-left: 0%;
+            margin-top: 10%;
+
+            /* filter: invert(100%) brightness(1000%);    */
+            /* letter-spacing: 10px; */
+            /* font-weight: 500; */
+            /* font-family: 'Sakana'; */
+            .letter {
+                font-size: 2.5rem;
+                margin: -2%;
+            }
+        }
+
+
+
+        .home-culxlit {
+            width: fit-content;
+            color: #bd8a54;
+            /* letter-spacing: 3px; */
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin: 18% 0 0 -14%;
+            /* background-color: red; */
+        }
+
+        .home-shlok {
+            color: #ffff;
+            /* width: fit-content; */
+            /* display: none; */
+            height: fit-content;
+            /* background-color: blue; */
+            font-size: 0.6rem;
+            font-weight: 100;
+            margin: -18px 0 0 5%;
+            letter-spacing: 1.5px;
+            font-family: 'Roundelay-Thin';
+        }
+
+        .home-para {
+            font-size: 0.7rem;
+            width: 90%;
+            font-weight: 100;
+            /* background-color: rebeccapurple; */
+            letter-spacing: 1px;
+            margin: 1% 0 0 0%;
+        }
     }
 
-    .home-text .home-culxlit {
-        background-color: transparent;
-        margin: -13% 30% 0 135%;
-        font-size: 0.5rem;
+
+    .stvya-logo {
+        display: none;
     }
 
-    .home-text .home-stvya {
-        width: fit-content;
-        font-size: 3rem;
-        margin-left: 10%;
-        margin-top: 20%;
-    }
+    .img-div {
+        .ch-img-02 {
+            width: 50%;
+            opacity: 0.5;
+            top: 20%;
+            margin: 0% 0 0 60%;
 
-    .home-text .home-shlok {
-        font-size: 0.5rem;
-    }
+            /* background-color: red; */
+        }
 
-    .home-text .home-para {
-        font-size: 0.5rem;
-    }
+        .ch-img-05 {
+            width: 25%;
+            opacity: 0.5;
+            left: 55%;
+            margin: 40% 0 0 0%;
+        }
 
-    .homepage-main .img-div .ch-img-05 {
-        width: 40%;
-        margin-left: 55%;
-        margin-top: 27%;
-        /* animation: rotateImage 15s linear infinite; */
+        .ch-img-08 {
+            width: 60%;
+            opacity: 0.8;
+            margin-top: -5%;
+        }
     }
 }

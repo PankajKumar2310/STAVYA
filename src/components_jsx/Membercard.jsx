@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components_css/Member.css';
-import '../components_res/Member.css';
+// import '/Member.css';
 import { Link } from 'react-router-dom';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -15,6 +15,7 @@ export default function Membercard({ item }) {
   }
   return (
     <div className="memcard">
+      {/* <div className='text-red-500'>hello maalik</div> */}
       <img src={getimage(item.image)} />
       <div className="upper"></div>
       <div className="lower"></div>

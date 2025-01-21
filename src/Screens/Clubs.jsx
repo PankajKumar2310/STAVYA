@@ -2,13 +2,12 @@ import React from 'react';
 import Clubscard from '../components_jsx/Clubscard';
 import stvyalogo from '../images/stavyalogo.png';
 import '../components_css/Club.css';
-import '../components_res/Clubs.css';
 
 import deepjyoti02 from '../images/deepjyoti02.png'
-import chakra05 from '../images/chakra05.png'
+// import chakra05 from '../images/chakra05.png'
 import chakra08 from '../images/chakra08.png'
 import chakra09 from '../images/chakra09.png'
-import design from '../images/design.png'
+// import design from '../images/design.png'
 import capturelogo from '../images/capturelogo.png'
 import artslogo from '../images/artslogo.png'
 import eloquencelogo from '../images/eloquencelogo.png'
@@ -16,14 +15,16 @@ import musiclogo from '../images/musiclogo.png'
 import essencelogo from '../images/essencelogo.png'
 import debatelogo from '../images/debatelogo.png'
 import beatslogo from '../images/beatslogo.png'
+import Navbar from '../components_jsx/Navbar';
 
 
 export default function Clubs() {
   return (
     <>
+      <Navbar />
       <div className="C-club-page">
         <div className="C-logo-container">
-          <h3 className="C-main-text">CLUBS</h3>
+          <h3 className="text-green-600 C-main-text">CLUBS</h3>
           <p className="C-sub-text">Cultural Committee</p>
         </div>
       </div>

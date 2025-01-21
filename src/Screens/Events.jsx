@@ -3,12 +3,12 @@ import '../components_css/Event.css'
 import Eventscard from '../components_jsx/Eventscard';
 // import '../components_css/Event.css'
 import deepjyoti02 from '../images/deepjyoti02.png'
-import chakra05 from '../images/chakra05.png'
+// import chakra05 from '../images/chakra05.png'
 import chakra08 from '../images/chakra08.png'
 import chakra09 from '../images/chakra09.png'
 import stvyalogo from '../images/stavyalogo.png'
-import design from '../images/design.png'
-import profile from '../images/profile.jpg'
+// import design from '../images/design.png'
+// import profile from '../images/profile.jpg'
 import pixellence01 from '../images/pixellence-3.0.jpg'
 import nritayakala from '../images/nritayakala.jpg'
 import chitarkala from '../images/chitarkala.jpg'
@@ -25,10 +25,12 @@ import shashwat from '../images/shashwat.jpg'
 import shabdsangam from '../images/shabdsangam.jpg'
 import culturalnight from '../images/culturalnight.jpg'
 import avlekha from '../images/avlekha.jpg'
+import Navbar from '../components_jsx/Navbar';
 
 export default function Events() {
   return (
     <>
+      <Navbar />
       <div className="E-image-div">
         <img className='E-deep' src={deepjyoti02} />
         <img className='E-stavya' src={stvyalogo} />

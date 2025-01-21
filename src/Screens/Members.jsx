@@ -13,6 +13,7 @@ import Membercard from '../components_jsx/Membercard'
 import '../components_css/Member.css'
 import { useLocation } from 'react-router-dom';
 import memberdata from '../memberdata/memberdata';
+import Navbar from '../components_jsx/Navbar';
 
 export default function Members() {
 
@@ -21,16 +22,13 @@ export default function Members() {
   }
   return (
     <>
-      <div className="M-image-div">z
+      <Navbar />
+      <div className="M-image-div">
         <img className='M-deep' src={deepjyoti02} />
         <img className='M-stavya' src={stvyalogo} />
         <hr className='M-line' />
         <img className='M-chakra08' src={chakra08} />
         <img className='M-chakra09' src={chakra09} />
-<<<<<<< Updated upstream
-        {/* <img className='M-design' src={design} /> */}
-=======
->>>>>>> Stashed changes
       </div>
 
       <div className="M-member-page">

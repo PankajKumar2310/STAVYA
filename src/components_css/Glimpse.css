@@ -36,6 +36,7 @@
     }
 
     .glimp-stvya {
+        /* background-color: rebeccapurple; */
         opacity: 0.5;
         filter: invert(100%) brightness(10000%);
         position: absolute;

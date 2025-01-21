@@ -7,7 +7,7 @@ import deepjyoti02 from '../images/deepjyoti02.png';
 import chakra02 from '../images/chakra02.png'
 import { Link, useNavigate } from "react-router-dom";
 import '../components_css/Glimpse.css'
-import '../components_res/glimpses.css'
+import '../components_res/Glimpse.css'
 
 
 let images2 = []
@@ -76,22 +76,7 @@ const ImageCarousel = () => {
                         <img src={image.src} alt={image.alt} width={"80%"} />
                     </div>
                 ))}
-                {/* {images.map((image, index) => (
-                    <div key={index}>
-                        <img src={image.src} alt={image.alt} width={"80%"} />
-                    </div>
-                ))} */}
-                {/* {
-                    Array.from({ length: 40 }).map((_, i) => (
-                        <div key={i}>
-                            <img
-                                src={require(`../images/glimp${i + 11}.JPG`)}
-                                alt={`Image ${i}`}
-                                width="80%"
-                            />
-                        </div>
-                    ))
-                } */}
+
             </Carousel>
 
             <div className="button-div">

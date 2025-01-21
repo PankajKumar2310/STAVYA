@@ -1,6 +1,6 @@
 .contact-main {
     /* background-color: red; */
-    /* background-color: blue; */
+    /* background-color: blue;+ */
     /* margin-block-start: 40px; */
 }
 
@@ -24,7 +24,7 @@
         animation: rotateImage 15s linear infinite;
         position: absolute;
         width: 20%;
-        left: 12.2px;
+        left: 8px;
     }
 
     .stvya-logo {
@@ -32,16 +32,16 @@
         width: 8%;
         top: 100px;
         left: 104.6px;
-        filter: invert(100%) brightness(10000%);
+        /* filter: invert(100%) brightness(10000%); */
     }
 
     .cont-stv {
         position: absolute;
         color: #ffff;
-        left: 120px;
-        top: 158px;
-        font-size: 0.8rem;
-        font-weight: lighter;
+        left: 125px;
+        top: 170px;
+        font-size: 1.2rem;
+        font-weight: 600;
         letter-spacing: 10px;
         width: fit-content;
     }
@@ -57,8 +57,18 @@
         /* background-color: red; */
         position: absolute;
         width: 10%;
-        top: -45px;
+        top: -54px;
         right: 55px;
+    }
+
+    .stvya-logo {
+        filter: invert(100%) brightness(10000%);
+        /* background-color: red; */
+        position: absolute;
+        width: 9%;
+        top: 106px;
+        margin-right: 50px;
+        /* right: 50px; */
     }
 
     .cont-stv-line {
@@ -75,7 +85,7 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: end; */
 
     h2 {
         letter-spacing: 2px;
@@ -93,11 +103,48 @@
         margin-top: 20px;
         gap: 30px;
 
-        .anchor {
+        .emailwegra {
             display: flex;
             flex-direction: column;
             gap: 10px;
+            flex-wrap: wrap;
+            color: white;
 
+            /* background-color: green; */
+            .iconstyle {
+                font-size: 28px;
+            }
+        }
+
+        .iconss {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            /* Use default text color */
+            font-size: 18px;
+        }
+
+        .instawegra {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex-wrap: wrap;
+            color: white;
+            /* background-color: green; */
+
+            .iconstyle {
+                font-size: 23px;
+            }
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            /* Use default text color */
+            font-size: 18px;
         }
 
         anchor a::before {
@@ -155,13 +202,22 @@
         color: white;
         text-align: center;
         margin-top: 80px;
+        /* margin-bottom: 0; */
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 100;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
 
         h4 {
             font-size: 0.8rem;
             font-weight: 100;
-            letter-spacing: 2px;
-            margin-bottom: 8px;
-            margin-top: 8px;
+            letter-spacing: 0.8px;
+            margin-bottom: 10px;
+            margin-top: 5px;
         }
 
         .copyright-line {

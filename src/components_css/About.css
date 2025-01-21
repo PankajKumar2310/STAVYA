@@ -1,6 +1,9 @@
 .about-main-div {
     display: flex;
     justify-content: center;
+    /* background-color: red; */
+    height: 80vh;
+    margin-top: 10%;
 
     .about {
         font-size: 1.5rem;

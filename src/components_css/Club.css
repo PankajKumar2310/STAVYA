@@ -168,19 +168,21 @@
 
     .C-chakra08 {
         position: absolute;
-        width: 65%;
-        margin: 5% -5% 0;
+        width: 60%;
+        /* margin: 5% -5% 0; */
         opacity: 0.1;
         z-index: -1;
+        /* background-color: red; */
         filter: invert(100%) brightness(1000%);
         animation: rotateImage 15s linear infinite;
     }
 
     .C-chakra09 {
         position: absolute;
-        width: 50%;
+        width: 43%;
         opacity: 0.1;
-        margin: 40% 0 0 0;
+        /* background-color: rebeccapurple; */
+        margin: 30% 0 0 0;
         left: 55%;
         z-index: -1;
         filter: invert(100%) brightness(1000%);

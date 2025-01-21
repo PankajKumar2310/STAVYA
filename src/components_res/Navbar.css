@@ -149,9 +149,7 @@
 
 @media (max-width:600px) {
 
-    .nav-main-div {
-        /* background-color: aquamarine; */
-    }
+
 
     .logo img {
         width: 28%;
@@ -161,9 +159,7 @@
 
 @media (max-width:550px) {
 
-    .nav-main-div {
-        /* background-color: brown; */
-    }
+
 
     .logo img {
         width: 30%;
@@ -173,12 +169,9 @@
 
 @media (max-width:450px) {
 
-    .nav-main-div {
-        /* background-color: blueviolet; */
-        /* font-size: 0.5rem; */
-    }
 
-    .ham-div .mobile-menu a{
+
+    .ham-div .mobile-menu a {
         font-size: 0.5rem;
         padding: 3px;
     }
@@ -195,11 +188,22 @@
     }
 }
 
+@media (max-width:420px) {
+    .logo img {
+        width: 35%;
+        margin-left: 15px;
+    }
+
+    .hamburgur {
+        cursor: pointer;
+        font-size: 2rem;
+        transform: scale(1.5);
+    }
+}
+
 @media (max-width:390px) {
 
-    .nav-main-div {
-        /* background-color: chartreuse; */
-    }
+
 
     .logo img {
         width: 40%;
@@ -209,9 +213,7 @@
 
 @media (max-width:350px) {
 
-    .nav-main-div {
-        /* background-color: blue; */
-    }
+
 
     .logo img {
         width: 41%;
@@ -221,12 +223,10 @@
 
 @media (max-width:320px) {
 
-    .nav-main-div {
-        /* background-color: cadetblue; */
-    }
+
 
     .logo img {
-        width: 43%;
+        width: 40%;
         margin: 0 0 0 15px;
     }
 }

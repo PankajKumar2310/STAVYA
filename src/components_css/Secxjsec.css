@@ -5,16 +5,14 @@
     justify-content: space-evenly;
     gap: 30px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: 100px;
     padding: 20px;
+}
 
-    .inline {
-        flex-shrink: 0;
-    }
-
-    /* background: red; */
+.inline {
+    flex-shrink: 0;
 }
 
 .card .front,
@@ -56,133 +54,107 @@
     transform: rotateY(0deg);
 }
 
-/*======member details*/
-
-.back .head-data {
-    h1 {
-        font-size: 2rem;
-        letter-spacing: 1px;
-        font-family: 'ArgentumSans-Black';
-        /* margin-top: 5%; */
-    }
-
-    h2 {
-        letter-spacing: 0.8px;
-        font-size: 1.5rem;
-        margin-bottom: 3%;
-    }
-
-    h4 {
-        letter-spacing: 0.8px;
-        font-size: 0.8rem;
-        font-weight: 100;
-        margin: -3px 0 0 0;
-        font-family: 'Roundelay-Thin';
-    }
-
-    p {
-        letter-spacing: 1px;
-        font-size: 0.8rem;
-        /* margin: 5px 0 10px 0; */
-    }
-
-    .email {
-        font-size: 1.1rem;
-        letter-spacing: 1.5px;
-        margin: -3px 0 0 0;
-        font-family: 'Roundelay-Thin';
-    }
-
-    a {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        margin: 3px;
-        background: transparent;
-        border: 2px solid #C70039;
-        border-radius: 50%;
-        font-size: 10px;
-        color: #fff;
-        text-decoration: none;
-        transition: background 0.5s ease, color 0.5s ease;
-        animation: slideLeft 1s ease forwards;
-        animation-delay: calc(0.2s * var(--i));
-    }
-
-    a:hover {
-        background: white;
-        color: #000;
-    }
-
-
-    a:hover {
-        background: white;
-        color: #000;
-    }
-
-
+/* Member Details */
+.back .head-data h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: 'ArgentumSans-Black';
 }
 
-.E-image-div2 {
+.back .head-data h2 {
+    letter-spacing: 0.8px;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.back .head-data h4 {
+    letter-spacing: 0.8px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: -3px 0 0 0;
+    font-family: 'Roundelay-Thin';
+}
+
+.back .head-data p {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.back .head-data .email {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    margin: -3px 0 0 0;
+    font-family: 'Roundelay-Thin';
+}
+
+.back .head-data a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.back .head-data a:hover {
+    background: white;
+    color: #000;
+}
+
+/* Image Div */
+.sj-image-div {
     position: relative;
-    background-color: red;
-    /* display: none; */
+}
 
-    .E-deep {
-        position: absolute;
-        width: 13%;
-        margin-top: 6%;
-        left: 87%;
-        filter: invert(100%) brightness(10000%);
-    }
+.sj-deep {
+    position: absolute;
+    width: 13%;
+    margin-top: 6%;
+    left: 87%;
+    filter: invert(100%) brightness(10000%);
+}
 
-    .E-stavya {
-        position: absolute;
-        width: 10%;
-        margin-top: 2.9%;
-        left: 88%;
-        filter: invert(100%) brightness(10000%);
-    }
+.sj-stavya {
+    position: absolute;
+    width: 10%;
+    margin-top: 2.9%;
+    left: 88%;
+    filter: invert(100%) brightness(10000%);
+}
 
-    .E-line {
-        position: absolute;
-        margin-top: 7.5%;
-        left: 88%;
-        width: 10%;
-    }
+.sj-line {
+    position: absolute;
+    margin-top: 7.5%;
+    left: 88%;
+    width: 10%;
+}
 
-    .E-chakra08 {
-        position: absolute;
-        width: 45%;
-        margin: 5% -5% 0;
-        opacity: 0.1;
-        z-index: -1;
-        filter: invert(100%) brightness(1000%);
-        animation: rotateImage 15s linear infinite;
-    }
+.sj-chakra08 {
+    position: absolute;
+    width: 50%;
+    opacity: 0.1;
+    z-index: -1;
+    left: -3%;
+    margin-top: -2%;
+    filter: invert(100%) brightness(1000%);
+    animation: rotateImage 15s linear infinite;
+}
 
-    .E-chakra09 {
-        position: absolute;
-        width: 25%;
-        opacity: 0.4;
-        margin: 20% 0 0 0;
-        left: 85%;
-        z-index: -1;
-        filter: invert(100%) brightness(1000%);
-        animation: rotateImage 15s linear infinite;
-    }
-
-    .E-design {
-        position: absolute;
-        left: 25%;
-        z-index: -1;
-        filter: invert(0%) brightness(0%) contrast(100%);
-        opacity: 0.2;
-        margin: 70% 20% 0 0;
-    }
-
+.sj-chakra09 {
+    position: absolute;
+    width: 55%;
+    opacity: 0.1;
+    margin: 2% 0 0 0;
+    left: 45%;
+    z-index: -1;
+    filter: invert(100%) brightness(1000%);
+    animation: rotateImage 15s linear infinite;
 }
 
 .sj-member-page {
@@ -190,11 +162,6 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-
-    /* h3 {
-        font-size: 100px;
-        font-weight: 1000;
-    } */
 }
 
 .sj-logo-container {
@@ -223,5 +190,4 @@
     font-weight: 600;
     text-transform: uppercase;
     background-color: #000;
-
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import EventInfo from '../Eventdata/EventInfo';
-import '../components_res/Events.css'
+// import '/Events.css'
 
 export default function Eventscard({ eventname, eventdescription, backgroundImage }) {
     const navigate = useNavigate();
