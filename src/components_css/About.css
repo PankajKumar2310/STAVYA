@@ -77,6 +77,15 @@
         font-family: 'Roundelay-Thin';
         /* width: 50%; */
     }
+
+    .para-res{
+        margin: 15px 0 30px 40px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        text-align: start;
+        font-family: 'Roundelay-Thin';
+        visibility: hidden;
+    }
 }
 
 

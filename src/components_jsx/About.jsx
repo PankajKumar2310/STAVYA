@@ -70,6 +70,12 @@ export default function About() {
         >
           Join us to celebrate creativity, join us, to celebrate Stavya !!
         </motion.div>
+        <motion.div
+          variants={fadeIn("up", 0.8)}
+          className="para-res"
+        >
+          Stavya, the annual cultural festival of IIIT Vadodara-ICD, is a vibrant celebration of creativity, talent, and collaboration. Derived from the Esperanto word for "Creativity," Stavya has grown since its inception in 2022 into a spectacular platform for students to showcase their skills in performing and aesthetic arts. From music and dance to drama and visual arts, Stavya brings together passionate individuals to express themselves and create unforgettable experiences. Join us in celebrating the spirit of creativity—join us for Stavya!
+        </motion.div>
       </motion.div>
 
       <motion.div
