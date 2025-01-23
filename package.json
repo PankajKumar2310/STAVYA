@@ -1,7 +1,7 @@
 {
   "name": "stavya",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "stavya2k25",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
