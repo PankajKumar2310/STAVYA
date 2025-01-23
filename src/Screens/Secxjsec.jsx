@@ -2,6 +2,7 @@ import React from 'react'
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../components_css/Secxjsec.css'
+import '../components_res/Secjsec.css'
 import data from '../Sec&JsecData/data'
 import { Link, useLocation } from 'react-router-dom';
 import deepjyoti02 from '../images/deepjyoti02.png'
@@ -38,7 +39,7 @@ export default function Secxjsec() {
                 </div>
             </div>
             <div className='wrapper-01'>
-                <div className="card inline">
+                <div className="inline card">
                     <div
                         className="front"
                         style={{
@@ -64,7 +65,7 @@ export default function Secxjsec() {
                     </div>
                 </div>
 
-                <div className="card inline">
+                <div className="inline card">
                     <div
                         className="front"
                         style={{

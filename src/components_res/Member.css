@@ -97,7 +97,44 @@
     }
 }
 
+@media (max-width:576px) {
+    .M-main-text {
+        /* background-color: rebeccapurple; */
+        font-size: 5rem !important;
+    }
 
+    .M-sub-text {
+        letter-spacing: 15px;
+    }
+
+    .memcard {
+        width: 260px;
+        height: 260px;
+    }
+
+    .memtext {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        h4 {
+            margin-left: 10%;
+            width: fit-content;
+            /* background-color: red; */
+        }
+
+        a {
+            margin: -6% 0 0 0;
+            /* background-color: red; */
+        }
+    }
+
+}
 
 @media (max-width:420px) {
 

@@ -58,7 +58,7 @@ const Rules = () => {
                     </div>
                 </div>
 
-                <button className="register-button">Register</button>
+                <button className="register-button">Registration </button>
             </div>
         </>
     );

@@ -11,12 +11,13 @@ import memberdata from '../memberdata/memberdata';
 export default function Membercard({ item }) {
 
   const getimage = (input) => {
-    return require(`../images/${input}.jpg`)
-  }
+    return require(`../images/${input}.jpg`);
+  };
+
   return (
     <div className="memcard">
       {/* <div className='text-red-500'>hello maalik</div> */}
-      <img src={getimage(item.image)} />
+      <img src={getimage(item.image)} alt={`${item?.memberName || 'Member'}'s profile`} />
       <div className="upper"></div>
       <div className="lower"></div>
       <div className="memtext">
@@ -28,7 +29,8 @@ export default function Membercard({ item }) {
         <p className='email'>{item?.email}</p>
         <div>
           <Link to={item?.instagram}><InstagramIcon /></Link>
-          <Link to={item?.linkedin}><LinkedInIcon /></Link></div>
+          <Link to={item?.linkedin}><LinkedInIcon /></Link>
+        </div>
       </div>
     </div>
   );

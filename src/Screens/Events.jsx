@@ -33,13 +33,14 @@ export default function Events() {
     <>
       <Navbar />
       <div className="E-image-div">
-        <img className='E-deep' src={deepjyoti02} />
-        <img className='E-stavya' src={stvyalogo} />
-        <hr className='E-line' />
-        <img className='E-chakra08' src={chakra08} />
-        <img className='E-chakra09' src={chakra09} />
-        {/* <img className='E-design' src={design} /> */}
+        <img className="E-deep" src={deepjyoti02} alt="Deepjyoti logo" />
+        <img className="E-stavya" src={stvyalogo} alt="Stavya logo" />
+        <hr className="E-line" />
+        <img className="E-chakra08" src={chakra08} alt="Chakra08 logo" />
+        <img className="E-chakra09" src={chakra09} alt="Chakra09 logo" />
+        {/* <img className='E-design' src={design} alt="Design logo" /> */}
       </div>
+
 
       <div className="E-member-page">
         <div className="E-logo-container">

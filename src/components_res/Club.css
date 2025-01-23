@@ -1,3 +1,49 @@
+@media (max-width:768px) {
+
+    .container .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 320px;
+        height: 460px;
+        transition: 0.5s;
+    }
+
+    .container .card .face.face2 .content p {
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        font-weight: 600;
+        font-size: 1rem;
+        /* background-color: red; */
+    }
+
+    .container .card .face.face2 .content a {
+        /* margin: 15px 0 0; */
+        margin-top: 5px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        /* font-size: 1rem; */
+        color: #333;
+        padding: 5px;
+        border: 1px solid #333;
+    }
+}
+
+@media (max-width:576px) {
+    .container .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        width: 450px;
+        height: 460px;
+        transition: 0.5s;
+
+    }
+}
+
 @media (max-width:420px) {
 
     .C-stavya {

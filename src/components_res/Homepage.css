@@ -66,8 +66,47 @@
         }
     }
 
+}
+
+@media (max-width:576px) {
+
+    .homepage-main {
+        /* background-color: red; */
+        /* margin-top: 15%; */
+        height: 50vh;
+        /* margin-bottom: 20%; */
+    }
+
+    .home-text {
+        /* background-color: yellow; */
+
+        .home-stvya {
+            /* background-color: red; */
+            /* font-size: 4rem; */
+
+            .letter {
+                font-size: 5rem;
+            }
+        }
+
+        .home-culxlit {
+            /* background-color: yellow; */
+            height: fit-content;
+            margin: 21% 0 0 1%;
+        }
+
+        .home-shlok {
+            /* background-color: blue; */
+            margin: -7% 0 0 10%;
+        }
+
+        .home-para {
+            /* background-color: yellow; */
+        }
+    }
 
 }
+
 
 @media (max-width: 420px) {
 

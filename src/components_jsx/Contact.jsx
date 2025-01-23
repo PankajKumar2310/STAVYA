@@ -37,7 +37,8 @@ export default function Contact() {
                         <Link to='#' className='iconss'><FaInstagram className='iconstyle' style={{ width: '40px', marginBottom: '-8px' }} /><h3>Instagram</h3></Link>
                         <Link to='#' className='iconss'><FaLinkedin className='iconstyle' style={{ width: '40px', marginBottom: '-8px' }} /><h3>LinkedIn</h3></Link>
                         <Link to='#' className='iconss'><FaGlobe className='iconstyle' style={{ width: '40px', marginBottom: '-8px' }} /><h3>Institute Site</h3></Link>
-                        <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultral@vadodara.ac.in</h3></h4>
+
+
 
 
 
@@ -53,6 +54,7 @@ export default function Contact() {
                             <MdPhone className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} />
                             <h3>+91 0000000000, +91 000000000</h3>
                         </h4>
+                        <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultral@vadodara.ac.in</h3></h4>
                         <h4 className='icons'>
                             <MdLocationOn className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} />
                             <h3>IIITV-ICD Eduaction Hub,Diu (U.T) 362520</h3>

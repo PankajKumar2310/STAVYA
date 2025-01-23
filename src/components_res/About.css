@@ -37,10 +37,11 @@
 
         }
 
-        .para-3 {
+        .para-03 {
+            /* background-color: green !important; */
             font-size: 1rem;
-            background-color: red !important;
-
+            width: fit-content;
+            margin: -3% 0 6% 3% !important;
         }
 
     }
@@ -146,6 +147,156 @@
     }
 }
 
+@media (max-width:576px) {
+    .about-main-div {
+        /* background-color: red; */
+        /* margin-top: -20% !important; */
+
+        .about-para {
+            top: 0%;
+            margin-top: 5%;
+
+            .img-eyes {
+                margin: -7% 0 0 20% !important;
+            }
+        }
+
+        .para-01,
+        .para-02 {
+            /* background-color: green; */
+            font-size: 0.9rem;
+        }
+
+        .para-03 {
+            /* background-color: green !important; */
+            font-size: 0.9rem;
+            width: fit-content;
+            margin: -3% 0 0 3% !important;
+        }
+
+    }
+
+    .chakra-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        /* background-color: rgb(255, 0, 43); */
+        margin-top: -30%;
+        height: fit-content;
+        width: 100%;
+
+        .my-div-01 {
+            width: fit-content;
+            width: 38%;
+            right: 0%;
+            left: 15%;
+            top: -15%;
+            position: relative;
+
+            .contentsy1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 14%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+            }
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1.8rem;
+            }
+        }
+
+        .my-div-02 {
+            width: 44%;
+            position: relative;
+            right: 5%;
+            top: 0% !important;
+            margin-left: auto;
+
+            .contentsy2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 15%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+            }
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+            }
+
+
+        }
+
+        .my-div-03 {
+            width: 50%;
+            position: relative;
+            bottom: 20%;
+            left: 11%;
+            height: fit-content;
+
+            .contentsy3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 32%;
+                left: 16%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+
+                span {
+                    color: #ff0057;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+
+    }
+
+    .stv-logo {
+
+        margin: -11.9% 0 0 73% !important;
+    }
+
+    .dp-02 {
+        width: 30%;
+        right: 0;
+        margin: -4% 0 0 0 !important;
+        /* background-color: red; */
+    }
+
+    .dp-line {
+        margin: 0px 0 0 74% !important;
+        /* display: none; */
+    }
+
+
+
+}
 
 @media (max-width: 420px) {
 
@@ -154,60 +305,73 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* margin-top: 10%; */
+
+
+        .about {
+            /* margin: 80% 0 0 0 !important; */
+            font-size: 1rem;
+            letter-spacing: 3px;
+        }
+
+        .about-line {
+            width: 20%;
+        }
+
+        .img-eyes {
+            display: none;
+        }
     }
 
-    .about-main-div .about {
-        font-size: 0.85rem;
-        letter-spacing: 5px;
-    }
 
-    .about-main-div .about-line {
-        width: 20%;
-    }
 
-    .about-para .img-eyes {
-        display: none;
-    }
 
     .about-para {
-        width: 90%;
+        /* margin: 0 0 0 0; */
+        /* margin-top: 30% !important; */
+        width: 100%;
+        /* background-color: yellow; */
 
         .dp-01 {
             display: none;
         }
 
+        .about {
+            background-color: red;
+        }
+
         .para-01 {
-            margin: 6% 0 10% 1%;
+            /* display: none; */
+            margin: 50% 0 0% 6%;
             letter-spacing: 0.2px;
-            font-size: 0.4rem;
-            line-height: 10px;
-            visibility: hidden;
+            font-size: 1rem;
+
         }
 
         .para-02 {
+            display: none;
             margin: 6% 0 10% 1%;
             letter-spacing: 0.2px;
             font-size: 0.4rem;
             line-height: 10px;
-            visibility: hidden;
+            visibility: visible;
         }
 
         .para-03 {
+            display: none;
             margin: 6% 0 10% 1%;
             letter-spacing: 0.2px;
             font-size: 0.4rem;
             line-height: 10px;
-            visibility: hidden;
+            visibility: visible;
         }
 
-        .para-res {
+        /* .para-res {
             margin: -55% 0 10% 1%;
             letter-spacing: 0.5px;
             font-size: 0.8rem;
             line-height: 1rem;
             visibility: visible;
-        }
+        } */
     }
 
     .chakra-div {
@@ -221,11 +385,12 @@
         width: 100%;
 
         .my-div-01 {
+            /* background-color: red; */
             width: fit-content;
             width: 38%;
             right: 0%;
             left: 20%;
-            top: 20%;
+            top: -65%;
             position: relative;
 
             .contentsy1 {
@@ -246,16 +411,17 @@
             }
 
             h4 {
+                margin: 0 0 0 5%;
                 /* background-color: red; */
-                font-size: 0.5rem;
+                font-size: 0.6rem !important;
             }
         }
 
         .my-div-02 {
-            width: 40%;
+            width: 42%;
             position: relative;
-            right: 5%;
-            top: 30%;
+            right: 3%;
+            top: -53% !important;
             margin-left: auto;
 
             .contentsy2 {
@@ -276,8 +442,9 @@
             }
 
             h4 {
+                margin: 0 0 0 0%;
                 /* background-color: red; */
-                font-size: 0.5rem;
+                font-size: 0.6rem !important;
             }
         }
 
@@ -286,7 +453,7 @@
             position: relative;
             /* bottom: 8%; */
             left: 23%;
-            top: 17%;
+            top: -70%;
             height: fit-content;
 
             .contentsy3 {
@@ -316,9 +483,18 @@
             display: none;
         }
 
+        .dp-02 {
+            top: -50%;
+            background-color: red;
+        }
+
         .stv-logo {
             /* display: none; */
             position: absolute;
+            /* position: relative; */
+            margin: 0;
+            top: -50%;
+            background-color: red;
         }
 
 

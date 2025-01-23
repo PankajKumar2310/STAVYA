@@ -1,3 +1,60 @@
+@media (max-width:768px) {
+    .glimpse-main {
+        /* background-color: red; */
+        margin-top: 100%;
+
+        .button-div {
+            /* background-color: yellow; */
+
+            .arrow {
+                font-size: 20px;
+            }
+
+            .button-text {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        .glimpse-div {
+            .glimp-stvya {
+                /* background-color: red; */
+                width: 15%;
+                margin: 0 -6% 0 -6%;
+            }
+
+            .glimp-dp-02 {
+                width: 20%;
+                margin: 1% -6% 0 -1%;
+                /* background-color: rebeccapurple; */
+            }
+
+            .stvya-glimp {
+                /* background-color: red; */
+                width: fit-content;
+                margin: 0 0 0 0;
+            }
+
+            .glipm-line-01 {
+                width: 30%;
+                margin: 0 0 0 -2%;
+            }
+        }
+
+
+
+    }
+}
+
+@media (max-width:576px) {
+    .glimp-stvya {
+        width: 20% !important;
+        margin: 0 0 0 -50px !important;
+    }
+
+}
+
+
 @media (max-width:420px) {
 
     .glimpse-main {
@@ -47,53 +104,4 @@
     }
 
 
-}
-
-
-@media (max-width:768px) {
-    .glimpse-main {
-        /* background-color: red; */
-        margin-top: 100%;
-
-        .button-div {
-            /* background-color: yellow; */
-
-            .arrow {
-                font-size: 20px;
-            }
-
-            .button-text {
-                font-size: 1rem;
-                font-weight: 600;
-            }
-        }
-
-        .glimpse-div {
-            .glimp-stvya {
-                /* background-color: red; */
-                width: 15%;
-                margin: 0 -6% 0 -6%;
-            }
-
-            .glimp-dp-02 {
-                width: 20%;
-                margin: 1% -6% 0 -1%;
-                /* background-color: rebeccapurple; */
-            }
-
-            .stvya-glimp {
-                /* background-color: red; */
-                width: fit-content;
-                margin: 0 0 0 0;
-            }
-
-            .glipm-line-01 {
-                width: 30%;
-                margin: 0 0 0 -2%;
-            }
-        }
-
-
-
-    }
 }

@@ -1,13 +1,22 @@
 @media (max-width:768px) {
+    .wrapper {
+        padding: 50px;
+    }
+
     .card {
-        height: 200px;
+        height: 300px;
+        width: 300px;
+        display: flex;
+
+        justify-content: start;
+        /* background-color: red; */
     }
 
     .card .back {
         background-color: red;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
 
         .desc {
             /* display: none; */
@@ -26,6 +35,36 @@
     }
 }
 
+@media (max-width:576px) {
+
+    .card {
+        width: 250px;
+        height: 250px;
+        /* margin-right: 4%; */
+    }
+
+    .card .back {
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .desc {
+            /* display: none; */
+            min-height: 100px;
+            max-height: 100px;
+            overflow-y: scroll;
+            /* background-color: green; */
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+
+        .card-button-div {
+            margin: 0;
+            margin-top: 7px;
+        }
+    }
+}
 
 @media (max-width:420px) {
 

@@ -31,13 +31,14 @@ export default function Clubs() {
       </div>
 
       <div className="C-image-div">
-        <img className='C-deep' src={deepjyoti02} />
-        <img className='C-stavya' src={stvyalogo} />
-        <hr className='C-line' />
-        <img className='C-chakra08' src={chakra08} />
-        <img className='C-chakra09' src={chakra09} />
-        {/* <img className='C-design' src={design} /> */}
+        <img className="C-deep" src={deepjyoti02} alt="Deepjyoti logo" />
+        <img className="C-stavya" src={stvyalogo} alt="Stavya logo" />
+        <hr className="C-line" />
+        <img className="C-chakra08" src={chakra08} alt="Chakra08 logo" />
+        <img className="C-chakra09" src={chakra09} alt="Chakra09 logo" />
+        {/* <img className='C-design' src={design} alt="Design logo" /> */}
       </div>
+
 
       <div className="container">
         <Clubscard
@@ -48,7 +49,7 @@ export default function Clubs() {
         <Clubscard
           image={eloquencelogo}
           clubname="Eloquence: Drama Club"
-          clubdescription="Eloquence is the Drama Club of IIITV-ICD. This club is responsible to conducts all the events that consists of skits, plays and much more. You will find people here who have been actively engaged with the acting fraternities across the board. 
+          clubdescription="Eloquence is the Drama Club of IIITV-ICD. This club is responsible to conducts all the events that consists of plays and much more. You will find people who have been actively engaged with the acting fraternities across the board. 
           "
         />
         <Clubscard
