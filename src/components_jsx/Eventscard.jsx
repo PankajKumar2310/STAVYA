@@ -19,11 +19,11 @@ export default function Eventscard({ eventname, eventdescription, backgroundImag
                     opacity: 0.8,
                 }}
             >
-                <span className='eventname'>{eventname}</span>
                 <hr />
             </div>
             <div className="back">
-                <p>{eventDetails?.description || 'Description not available'}</p>
+                <h1 className='eventname'>{eventname}</h1>
+                <p className='desc'>{eventDetails?.description || 'Description not available'}</p>
                 <div className="card-button-div">
                     <button
                         className="register-button"

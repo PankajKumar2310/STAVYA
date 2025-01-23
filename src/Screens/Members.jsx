@@ -11,6 +11,7 @@ import profile from '../images/profile.jpg'
 import { style } from 'framer-motion/client';
 import Membercard from '../components_jsx/Membercard'
 import '../components_css/Member.css'
+import '../components_res/Member.css'
 import { useLocation } from 'react-router-dom';
 import memberdata from '../memberdata/memberdata';
 import Navbar from '../components_jsx/Navbar';

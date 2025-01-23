@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import chakra08 from '../images/chakra08.png';
 import chakra02 from '../images/chakra02.png';
 import chakra05 from '../images/design.png';
-import stavyalogo from '../images/stavyalogoo.png'; 
+import stavyalogo from '../images/stavyalogoo.png';
 import '../components_css/Homepage.css';
 import '../components_res/Homepage.css';
 // import '/Homepage.css';

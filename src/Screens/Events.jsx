@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components_css/Event.css'
+import '../components_res/Event.css'
 import Eventscard from '../components_jsx/Eventscard';
 // import '../components_css/Event.css'
 import deepjyoti02 from '../images/deepjyoti02.png'

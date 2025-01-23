@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { FaCircleArrowRight } from "react-icons/fa6";
+
 
 import stavyalogo from '../images/stavyalogo.png';
 import deepjyoti02 from '../images/deepjyoti02.png';
@@ -82,26 +84,24 @@ const ImageCarousel = () => {
             <div className="button-div">
                 <Link to="/members">
                     <button className="M-button">
+                        <FaCircleArrowRight className="arrow" color="#ff0057" />
                         <span className="button-text">Members</span>
-                        <div className="circle">
-                            <div className="icon arrow"></div>
-                        </div>
+
                     </button>
                 </Link>
                 <Link to="/events">
                     <button className="M-button">
+                        <FaCircleArrowRight className="arrow" color="#ff0057" />
                         <span className="button-text">Events</span>
-                        <div className="circle">
-                            <div className="icon arrow"></div>
-                        </div>
+
                     </button>
                 </Link>
                 <Link to="/clubs">
                     <button className="M-button">
+                        <FaCircleArrowRight className="arrow" color="#ff0057" />
+
                         <span className="button-text">Clubs</span>
-                        <div className="circle">
-                            <div className="icon arrow"></div>
-                        </div>
+
                     </button>
                 </Link>
             </div>

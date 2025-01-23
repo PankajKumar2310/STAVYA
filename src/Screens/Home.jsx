@@ -4,7 +4,7 @@ import Homepage from '../components_jsx/Homepage'
 import About from '../components_jsx/About'
 import Glimpse from '../components_jsx/Glimpse'
 import Contact from '../components_jsx/Contact'
-
+import '../index.css'
 import { HashLoader } from 'react-spinners'
 
 export default function Home() {
@@ -42,9 +42,10 @@ export default function Home() {
             ) : (
 
                 <>
-                    {/* <Navbar /> */}
-                    {/* <Homepage /> */}
-                    {/* <About /> */}
+                    <div className="doodleimage"></div>
+                    <Navbar />
+                    <Homepage />
+                    <About />
                     <Glimpse />
                     <Contact />
                 </>

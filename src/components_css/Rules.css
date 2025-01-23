@@ -90,6 +90,7 @@
 }
 
 .rules-section {
+    list-style: none;
 
     h2 {
         font-size: 1.8rem;
@@ -110,10 +111,13 @@
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 0.9rem;
         width: 100%;
         font-weight: 600;
+        margin-left: 5px;
+        /* gap: 5px; */
         letter-spacing: 0.7px;
+        /* background-color: red; */
         font-family: 'GlacialIndifference-Regular';
 
     }

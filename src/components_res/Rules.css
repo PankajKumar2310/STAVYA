@@ -1,15 +1,19 @@
-@media (max-width:500px){
+@media (max-width:420px) {
 
-    .juniors-title {
-        font-size: 1.5rem;
-        margin-left: 15%;
-        margin-bottom: 5%;
+    .rules-title {
+        font-size: 2.1rem;
+        font-weight: 600;
+        color: rgb(255, 128, 0);
+        /* margin-left: 15%; */
+        /* margin-bottom: 5%; */
     }
 
     .rules-section {
-    
+        list-style: none;
+        /* word-break: break-all; */
+
         .prizes {
-    
+
             font-size: 1.5rem;
             width: fit-content;
 
@@ -18,59 +22,59 @@
                 color: rgb(255, 128, 0);
             }
         }
-    
+
         .venue {
             margin-top: 40px;
             font-weight: 100;
-    
+
             span {
                 font-weight: 600;
                 color: rgb(255, 128, 0);
                 font-size: 1.5rem;
             }
         }
-    
-    
+
+
         .timing {
-    
+
             .time {
                 font-weight: 100;
                 font-size: 0.8rem;
-    
+
                 span {
                     font-size: 1.5rem;
                     font-weight: 600;
-    
+
                 }
             }
-    
+
             .date {
                 margin-top: 15px;
                 font-weight: 100;
                 font-size: 0.8rem;
-    
+
                 span {
                     font-size: 1.5rem;
                     font-weight: 600;
                 }
             }
-    
+
             .note {
                 font-weight: 100;
                 font-size: 0.8rem;
-    
+
                 span {
                     font-size: 1.5rem;
                     font-weight: 600;
                 }
             }
         }
-    
+
     }
 
     .organizers-section {
 
-        background-color: #ddd;
+        /* background-color: #ddd; */
         width: 100vw;
         margin: 0;
 
@@ -82,7 +86,7 @@
             margin-bottom: 10%;
             font-size: 1.8rem;
         }
-    
+
         img {
             border-radius: 100%;
         }
@@ -99,12 +103,21 @@
         background-color: #ddd;
         width: 100px;
         height: 100px;
-    
+
         border-radius: 50%;
         margin: 0 0 10px auto;
     }
 
     .register-button {
-        font-size: 1rem;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        padding: 8px 110px;
+        font-size: 1.7rem;
+        font-weight: 600;
+        border-radius: 20px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        margin-top: 20px 0 0 -10%;
     }
 }

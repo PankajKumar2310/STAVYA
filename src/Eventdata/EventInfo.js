@@ -103,7 +103,7 @@ module.exports = {
     },
     "Dub Ka Darbar": {
         "organisers": {
-            "name1": "Nitin Kumar Oberoi",
+            "name1": "Nitin Oberoi",
             "image1": "nitin01",
             "name2": "Poojan Simariya",
             "image2": "poojan01",
@@ -131,7 +131,7 @@ module.exports = {
     },
     "Bollywood Quiz": {
         "organisers": {
-            "name1": "Nitin Kumar Oberoi",
+            "name1": "Nitin Oberoi",
             "image1": "nitin01",
             "name2": "Poojan Simariya",
             "image2": "poojan01",
@@ -156,7 +156,7 @@ module.exports = {
     },
     "Persona Rewind": {
         "organisers": {
-            "name1": "Nitin Kumar Oberoi",
+            "name1": "Nitin Oberoi",
             "image1": "nitin01",
             "name2": "Poojan Simariya",
             "image2": "poojan01",

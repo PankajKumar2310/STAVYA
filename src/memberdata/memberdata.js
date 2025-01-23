@@ -24,7 +24,7 @@ module.exports = [
     {
         id: "member-03",
         image: "rajat",
-        memberName: "Rajat Kumar Thakur",
+        memberName: "Rajat Thakur",
         positionName: "General Secratery (Academics)",
         batch: "Batch: 2022",
         contact: "+91 8810544717",

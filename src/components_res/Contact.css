@@ -1,24 +1,74 @@
-@media (max-width:370px) {
+@media (max-width: 768px) {
+
+    .cont-stv-line {
+        margin-top: -10px;
+        margin-right: -20px;
+    }
+
+
+    .stvya-logo-02 {
+        filter: invert(100%) brightness(10000%);
+        /* background-color: red; */
+        position: absolute;
+        width: 11% !important;
+        top: -24px !important;
+        right: 32px !important;
+    }
+
+    .stvya-logo {
+        filter: invert(100%) brightness(10000%);
+        background-color: red;
+        position: absolute;
+        width: 9%;
+        top: 8px;
+        margin-right: 50px;
+        /* right: 50px; */
+        display: none;
+    }
+
+    .cont-stv {
+        display: none;
+    }
+
+    .chakra07 {
+        /* background-color: red; */
+        bottom: -112px;
+        display: none;
+    }
+
+    .link,
+    .contact {
+        display: none;
+    }
+}
+
+
+@media (max-width:420px) {
 
 
     .cont-img-div {
 
         .chakra07 {
+            display: none;
             /* background-color: red; */
             width: 15%;
             /* margin: 0 0 0 0; */
         }
 
         .stvya-logo {
-            background-color: bisque;
+            display: none;
+            /* background-color: bisque; */
         }
 
         .stvya-logo-02 {
             top: 100px;
-            background-color: red;
+            right: 30px;
+            display: none;
+            /* background-color: red; */
         }
 
         .deep-02 {
+            display: none;
             /* background-color: green; */
             width: 18%;
             top: 110px;
@@ -26,8 +76,10 @@
         }
 
         .cont-stv-line {
+            display: none;
             top: 120px;
-            background-color: blue;
+            right: 30px;
+            /* background-color: blue; */
         }
 
         .cont-stv {

@@ -50,12 +50,13 @@ export default function Navbar() {
             </div>
 
             <div className="nav-links" ref={navLinksRef}>
-                <Link to="/Homepage">Home</Link>
-                <Link to="/About">About</Link>
-                <Link to="/glimpse">Glimpse</Link>
-                <Link to="/members">Members</Link>
-                <Link to="/clubs">Clubs</Link>
-                <Link to="/contacts">Contacts</Link>
+                <a href="/Homepage">Home</a>
+                <a href="/About">About</a>
+                <a href="/glimpse">Glimpse</a>
+                <a href="/members">Members</a>
+                <a href="/clubs">Clubs</a>
+                <a href="/events">Events</a>
+                <a href="/#contact">Contacts</a>
             </div>
 
             <div className="ham-div">
@@ -81,12 +82,13 @@ export default function Navbar() {
                 </a>
                 {menuOpen && (
                     <div className="mobile-menu">
-                        <Link to="/home">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/glimpse">Glimpse</Link>
-                        <Link to="/members">Members</Link>
-                        <Link to="/clubs">Clubs</Link>
-                        <Link to="/contacts">Contacts</Link>
+                        <a href="/Homepage">Home</a>
+                        <a href="/About">About</a>
+                        <a href="/glimpse">Glimpse</a>
+                        <a href="/members">Members</a>
+                        <a href="/clubs">Events</a>
+                        <a href="/events">Clubs</a>
+                        <a href="/#contact">Contacts</a>
                     </div>
                 )}
             </div>

@@ -2,6 +2,8 @@
     /* background-color: red; */
     /* background-color: blue;+ */
     /* margin-block-start: 40px; */
+    /* background-color: red; */
+    margin-top: 10%;
 }
 
 .cont-img-div {
@@ -48,8 +50,9 @@
 
     .deep-02 {
         position: absolute;
-        width: 15%;
-        right: 9px;
+        width: 10%;
+        right: 30px;
+        top: 5px;
     }
 
     .stvya-logo-02 {
@@ -57,7 +60,7 @@
         /* background-color: red; */
         position: absolute;
         width: 10%;
-        top: -54px;
+        top: -55px;
         right: 55px;
     }
 
@@ -82,7 +85,6 @@
 }
 
 .contact-details {
-    padding-top: 100px;
     display: flex;
     flex-direction: column;
     /* justify-content: end; */

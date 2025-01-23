@@ -1,5 +1,6 @@
 import React from "react";
 import '../components_css/Rules.css'
+import '../components_res/Rules.css'
 import { useLocation } from "react-router-dom";
 import eventInfo from '../Eventdata/EventInfo'
 import { li } from "framer-motion/client";

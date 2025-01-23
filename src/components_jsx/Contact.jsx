@@ -14,7 +14,7 @@ import '../components_res/Contact.css'
 export default function Contact() {
     return (
 
-        <div className="contact-main">
+        <div className="contact-main" id='contact'>
             <div className="cont-img-div">
                 {/* <img className='chakra09' src={chakra09} alt="loading" /> */}
                 <img className='chakra07' src={chakra07} alt="loading" />
@@ -38,7 +38,7 @@ export default function Contact() {
                         <Link to='#' className='iconss'><FaLinkedin className='iconstyle' style={{ width: '40px', marginBottom: '-8px' }} /><h3>LinkedIn</h3></Link>
                         <Link to='#' className='iconss'><FaGlobe className='iconstyle' style={{ width: '40px', marginBottom: '-8px' }} /><h3>Institute Site</h3></Link>
                         <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultral@vadodara.ac.in</h3></h4>
-                      
+
 
 
                     </div>
