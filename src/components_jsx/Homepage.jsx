@@ -141,7 +141,7 @@ export default function Homepage() {
                     <h3 className='home-culxlit' ref={cultxRef}>CultxAcads</h3>
                     <h3 className='home-shlok' ref={shlokRef}>Streets alive Culture Ignites</h3>
                     <p className='home-para' ref={paraRef}>
-                        Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though.
+                        Stavya is the annual cultural fest of *IIIT Vadodara - International Campus Diu, organized by the Academics and Cultural Committee. It provides a platform for students to showcase their talents in events such as **photography, poetry, dance, music, debate, drawing, drama, and rangoli.
                     </p>
                 </div>
             </div>
