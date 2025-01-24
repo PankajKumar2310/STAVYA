@@ -48,15 +48,17 @@
         /* background-color: purple; */
 
         .nav-links {
-            gap: 5px;
+            gap: 0px;
         }
 
         a {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
 
     .logo img {
+        /* background-color: red; */
+        margin-left: 15% !important;
         width: 40%;
     }
 
@@ -71,7 +73,7 @@
         }
 
         a {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
     }
 

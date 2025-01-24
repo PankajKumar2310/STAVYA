@@ -1,7 +1,7 @@
 {
   "name": "stavya",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "https://your-app-name.onrender.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -35,8 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "serve": "serve -s build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

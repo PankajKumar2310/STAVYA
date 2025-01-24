@@ -1,3 +1,118 @@
+@media (max-width:992px) {
+    .about-para {
+        /* display: none; */
+        /* background-color: red; */
+
+        .about {
+            /* background-color: red; */
+            margin: 0 0 0 5%;
+        }
+
+        .img-eyes {
+            margin: -4% 0 0 13%;
+        }
+
+        .para-01 {
+            font-size: 0.9rem;
+            margin-left: 4%;
+            width: 90%;
+
+        }
+
+        .para-02 {
+            font-size: 0.9rem;
+            margin-left: 4%;
+            width: 90%;
+
+        }
+
+        .para-03 {
+            /* background-color: green !important; */
+            font-size: 0.9rem;
+            width: fit-content;
+            margin: -3% 0 6% 4% !important;
+        }
+    }
+
+    .dp-02 {
+        width: 30%;
+        right: 0;
+        margin: 0 0 0 0;
+        /* background-color: red; */
+    }
+
+    .dp-line {
+        margin: 42px 0 0 71% !important;
+        /* display: none; */
+    }
+
+    .my-div-01 {
+        width: 45% !important;
+        left: 10% !important;
+        top: -0% !important;
+        position: relative;
+        ;
+        /* background-color: red; */
+
+        .contentsy1 {
+            top: 30% !important;
+            left: 18% !important;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .my-div-02 {
+        width: 48% !important;
+        left: -3% !important;
+        top: 15% !important;
+
+        .contentsy2 {
+            top: 30%;
+            left: 15%;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .my-div-03 {
+        width: 60% !important;
+        right: -10% !important;
+        top: -3% !important;
+
+        .contentsy3 {
+            top: 26% !important;
+            left: 20% !important;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+}
+
 @media (max-width:768px) {
 
     .about-main-div {
@@ -308,13 +423,19 @@
 
 
         .about {
-            /* margin: 80% 0 0 0 !important; */
+            margin: 45% 0 0 7% !important;
             font-size: 1rem;
+            position: absolute;
+            color: #ff6200;
+            font-weight: bold !important;
             letter-spacing: 3px;
         }
 
         .about-line {
             width: 20%;
+            margin: 50% 0 0 5% !important;
+            position: absolute;
+            height: 2px !important;
         }
 
         .img-eyes {
@@ -333,10 +454,6 @@
 
         .dp-01 {
             display: none;
-        }
-
-        .about {
-            background-color: red;
         }
 
         .para-01 {
@@ -485,7 +602,7 @@
 
         .dp-02 {
             top: -50%;
-            background-color: red;
+            /* background-color: red; */
         }
 
         .stv-logo {
@@ -494,7 +611,7 @@
             /* position: relative; */
             margin: 0;
             top: -50%;
-            background-color: red;
+            /* background-color: red; */
         }
 
 
