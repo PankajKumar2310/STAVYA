@@ -1,7 +1,7 @@
 import React from "react";
 import '../components_css/Rules.css'
 import '../components_res/Rules.css'
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import eventInfo from '../Eventdata/EventInfo'
 import { li } from "framer-motion/client";
 import Navbar from '../components_jsx/Navbar';
@@ -9,7 +9,7 @@ import Navbar from '../components_jsx/Navbar';
 const Rules = () => {
     const eventname = useLocation().state
     // alert(eventname)
-
+    const navigate = useNavigate()
     const handleRegisterClick = () => {
         window.location.href = eventInfo.RegisterLink;
     };
@@ -58,7 +58,7 @@ const Rules = () => {
                     </div>
                 </div>
 
-                <button className="register-button">Registration </button>
+                <button className="register-button " onClick={() => window.location.href = eventInfo[eventname]["RegisterLink"]} >Registration </button>
             </div>
         </>
     );
