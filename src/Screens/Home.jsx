@@ -8,7 +8,7 @@ import '../index.css'
 import { HashLoader } from 'react-spinners'
 
 export default function Home() {
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
 
@@ -48,7 +48,7 @@ export default function Home() {
                     <About />
                     <Glimpse />
                     {/* <Sponsorship /> */}
-                    {/* <Contact /> */}
+                    <Contact />
                 </>
             )}
         </>
