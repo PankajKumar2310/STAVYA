@@ -413,7 +413,7 @@
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 320px) {
 
     .about-main-div {
         /* background-color: red; */
@@ -432,8 +432,8 @@
         }
 
         .about-line {
-            width: 20%;
-            margin: 50% 0 0 5% !important;
+            width: 25%;
+            margin: 52% 0 0 5% !important;
             position: absolute;
             height: 2px !important;
         }
@@ -443,24 +443,23 @@
         }
     }
 
-
+    .para-res {
+        background-color: red;
+    }
 
 
     .about-para {
         /* margin: 0 0 0 0; */
-        /* margin-top: 30% !important; */
+        margin-top: 10% !important;
         width: 100%;
         /* background-color: yellow; */
 
-        .dp-01 {
-            display: none;
-        }
-
         .para-01 {
             /* display: none; */
-            margin: 50% 0 0% 6%;
+            margin: 55% 0 0% 6% !important;
             letter-spacing: 0.2px;
-            font-size: 1rem;
+            font-size: 0.8rem;
+
 
         }
 
@@ -507,18 +506,18 @@
             width: 38%;
             right: 0%;
             left: 20%;
-            top: -65%;
+            top: -100% !important;
             position: relative;
 
             .contentsy1 {
                 display: flex;
                 flex-direction: column;
-                justify-content: start;
+                justify-content: center;
                 align-items: center;
                 font-size: 1rem;
-                position: absolute;
+                /* position: absolute; */
                 top: 35%;
-                left: 18%;
+                left: 0% !important;
             }
 
             span {
@@ -530,7 +529,7 @@
             h4 {
                 margin: 0 0 0 5%;
                 /* background-color: red; */
-                font-size: 0.6rem !important;
+                font-size: 0.7rem !important;
             }
         }
 
@@ -538,7 +537,7 @@
             width: 42%;
             position: relative;
             right: 3%;
-            top: -53% !important;
+            top: -80% !important;
             margin-left: auto;
 
             .contentsy2 {
@@ -569,8 +568,8 @@
             width: 45%;
             position: relative;
             /* bottom: 8%; */
-            left: 23%;
-            top: -70%;
+            left: 0%;
+            top: -100% !important;
             height: fit-content;
 
             .contentsy3 {
@@ -579,8 +578,8 @@
                 justify-content: start;
                 align-items: center;
                 position: absolute;
-                top: 34%;
-                left: 17%;
+                top: 34% !important;
+                left: 5% !important;
 
                 span {
                     /* background-color: yellow; */
@@ -590,7 +589,7 @@
 
                 h4 {
                     /* background-color: red; */
-                    font-size: 0.5rem;
+                    font-size: 0.6rem;
                 }
             }
         }
@@ -601,7 +600,7 @@
         }
 
         .dp-02 {
-            top: -50%;
+            top: -85%;
             /* background-color: red; */
         }
 
@@ -610,7 +609,7 @@
             position: absolute;
             /* position: relative; */
             margin: 0;
-            top: -50%;
+            top: -85%;
             /* background-color: red; */
         }
 

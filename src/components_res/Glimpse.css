@@ -41,7 +41,7 @@
     }
 
 
-    
+
 
 }
 
@@ -102,26 +102,37 @@
 }
 
 
-@media (max-width:420px) {
+@media (max-width:320px) {
 
     .glimpse-main {
         /* background-color: red; */
-        margin-top: 30% !important;
+        /* margin-top: 30% !important; */
     }
 
-    .M-button {
+    .button-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
         /* background-color: red; */
 
-        .button-text {
-            /* background-color: yellow; */
-            font-size: 0.8rem !important;
+        .M-button {
+            .button-text {
+                /* background-color: yellow; */
+                font-size: 1.5rem !important;
+            }
+
+            .arrow {
+                /* background-color: green; */
+                font-size: 25px !important;
+            }
         }
 
-        .arrow {
-            /* background-color: green; */
-            font-size: 20px !important;
-        }
+
     }
+
 
     .glimpse-div {
         /* background-color: red; */

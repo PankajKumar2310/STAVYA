@@ -92,10 +92,10 @@
 
 }
 
-@media (max-width:420px) {
+@media (max-width:320px) {
 
     .rules-title {
-        font-size: 2.1rem;
+        font-size: 1.5rem;
         font-weight: 600;
         color: rgb(255, 128, 0);
         /* margin-left: 15%; */
@@ -195,8 +195,8 @@
 
     .organizer-image {
         background-color: #ddd;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
 
         border-radius: 50%;
         margin: 0 0 10px auto;
@@ -206,8 +206,8 @@
         background-color: #fff;
         color: #000;
         border: none;
-        padding: 8px 110px;
-        font-size: 1.7rem;
+        padding: 10px 80px;
+        font-size: 1rem;
         font-weight: 600;
         border-radius: 20px;
         cursor: pointer;

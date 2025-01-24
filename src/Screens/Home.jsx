@@ -48,7 +48,7 @@ export default function Home() {
                     <About />
                     <Glimpse />
                     {/* <Sponsorship /> */}
-                    <Contact />
+                    {/* <Contact /> */}
                 </>
             )}
         </>

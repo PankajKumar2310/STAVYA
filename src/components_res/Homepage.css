@@ -167,16 +167,17 @@
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 320px) {
 
     .homepage-main {
         /* background-color: red; */
         /* margin-top: 15%; */
-        height: 30vh;
-        margin-bottom: 20%;
+        /* height: 30vh; */
+        /* margin-bottom: 20%; */
     }
 
     .home-text {
+        /* display: none; */
         width: 100%;
         display: flex;
         justify-content: start;
@@ -185,39 +186,40 @@
         .home-stvya {
             font-size: 3rem;
             margin-left: 0%;
-            margin-top: 10%;
+            margin-top: 5% !important;
 
             .letter {
-                font-size: 2.5rem;
+                font-size: 2.6rem;
                 margin: -2%;
             }
         }
-
 
 
         .home-culxlit {
             width: fit-content;
             color: #bd8a54;
 
-            font-size: 0.8rem;
+            font-size: 0.6rem !important;
             font-weight: 600;
-            margin: 18% 0 0 -14%;
+            margin: 16.5% 0 0 -18% !important;
 
         }
 
+
         .home-shlok {
+            /* display: none; */
             color: #ffff;
             height: fit-content;
-            font-size: 0.6rem;
+            font-size: 0.6rem !important;
             font-weight: 100;
-            margin: -18px 0 0 5%;
+            margin: -8% 0 0 5% !important;
             letter-spacing: 1.5px;
             font-family: 'Roundelay-Thin';
         }
 
         .home-para {
             font-size: 0.7rem;
-            width: 90%;
+            width: 80% !important;
             font-weight: 100;
 
             letter-spacing: 1px;
