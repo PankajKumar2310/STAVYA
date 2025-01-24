@@ -172,7 +172,7 @@ const ImageCarousel = () => {
     };
 
     return (
-        <div className="glimpse-main">
+        <div className="glimpse-main" id="glimpse">
             <div className="glimpse-div">
                 <h3 className="stvya-glimp">STAVYA GLIMPSE</h3>
                 <hr className="glipm-line-01" />

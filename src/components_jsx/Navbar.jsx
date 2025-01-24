@@ -51,8 +51,8 @@ export default function Navbar() {
 
             <div className="nav-links" ref={navLinksRef}>
                 <a href="/Homepage">Home</a>
-                <a href="/About">About</a>
-                <a href="/glimpse">Glimpse</a>
+                <a href="/#about">About</a>
+                <a href="/#glimpse">Glimpse</a>
                 <a href="/members">Members</a>
                 <a href="/clubs">Clubs</a>
                 <a href="/events">Events</a>

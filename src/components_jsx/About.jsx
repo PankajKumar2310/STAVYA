@@ -9,7 +9,7 @@ import '../components_res/About.css';
 
 export default function About() {
   return (
-    <div className="about-main-div">
+    <div className="about-main-div" id='about'>
       {/* Section with Text Animation */}
       <div className="about-para">
         <h3 className="about">ABOUT</h3>
@@ -51,7 +51,7 @@ export default function About() {
           <div className='contentsy2'>
             <span>12+</span>
             <h4>events to participate</h4>
-          </div> 
+          </div>
           <img src={chakra04} alt="chakra" />
 
         </div>
