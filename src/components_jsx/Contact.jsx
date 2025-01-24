@@ -52,7 +52,7 @@ export default function Contact() {
                     <div className='emailwegra'>
                         <h4 PhoneIcon className='icons'>
                             <MdPhone className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} />
-                            <h3>+91 0000000000, +91 000000000</h3>
+                            <h3>+91 9696319833, +91 8810544717</h3>
                         </h4>
                         <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultral@vadodara.ac.in</h3></h4>
                         <h4 className='icons'>
