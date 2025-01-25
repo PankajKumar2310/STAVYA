@@ -2,7 +2,7 @@ module.exports = {
     "Captur: Photography Club": {
         "secretary": {
             "name": "Kamal Meena",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "kamal",
             "batch": "Batch: 2022",
             "contact": "+91 9680477712",
@@ -13,7 +13,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Akarshan Kumar",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "akarshan",
             "batch": "Batch: 2023",
             "contact": "+91 8828072857",
@@ -26,7 +26,7 @@ module.exports = {
     "Eloquence: Drama Club": {
         "secretary": {
             "name": "Nitin Oberoi",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "nitin",
             "batch": "Batch: 2022",
             "contact": "+91 7302825162",
@@ -37,7 +37,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Poojan Simariya",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "poojan",
             "batch": "Batch: 2023",
             "contact": "+91 80004 45344",
@@ -50,7 +50,7 @@ module.exports = {
     "Genesis: Arts Club": {
         "secretary": {
             "name": "Arpita",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "arpita",
             "batch": "Batch: 2022",
             "contact": "+91 8168158728",
@@ -61,7 +61,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Mrunal Nikam ",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "murnal",
             "batch": "Batch: 2023",
             "contact": "+91 9356783201",
@@ -74,7 +74,7 @@ module.exports = {
     "Vehemence: Music Club": {
         "secretary": {
             "name": "Naman Singla",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "naman",
             "batch": "Batch: 2022",
             "contact": "+918570080330 ",
@@ -85,7 +85,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Ankit Mishra",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "ankit_m",
             "batch": "Batch: 2023",
             "contact": "+91 9106335647",
@@ -98,7 +98,7 @@ module.exports = {
     "Beats: Dance Club": {
         "secretary": {
             "name": "Diya Bhati",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "diya",
             "batch": "Batch: 2022",
             "contact": "+91 8236083335",
@@ -109,7 +109,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Saransh Naik",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "saransh",
             "batch": "Batch: 2023",
             "contact": "+91 7559184040",
@@ -122,7 +122,7 @@ module.exports = {
     "Essence: Poetry Club": {
         "secretary": {
             "name": "Harshit Soni",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "harshit",
             "batch": "Batch: 2022",
             "contact": "+91 8458955735",
@@ -133,7 +133,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Shailendra Singh",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "salendra",
             "batch": "Batch: 2023",
             "contact": "+91 9950125949",
@@ -146,7 +146,7 @@ module.exports = {
     "Uktam: Orators Society": {
         "secretary": {
             "name": "Rituraj kumar",
-            "position": "Secratory",
+            "position": "Secratary",
             "image": "rituraj",
             "batch": "Batch: 2022",
             "contact": "+91 9315075510",
@@ -157,7 +157,7 @@ module.exports = {
         },
         "jointsecretary": {
             "name": "Bala Subramanian",
-            "position": "Joint Secratory",
+            "position": "Joint Secratary",
             "image": "bala",
             "batch": "Batch: 2023",
             "contact": "+91 8762319522",

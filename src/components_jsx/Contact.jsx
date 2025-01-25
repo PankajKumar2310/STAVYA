@@ -54,7 +54,7 @@ export default function Contact() {
                             <MdPhone className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} />
                             <h3>+91 9696319833, +91 8810544717</h3>
                         </h4>
-                        <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultral@vadodara.ac.in</h3></h4>
+                        <h4 className='icons'> <MdEmail className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} /><h3>cultural@vadodara.ac.in</h3></h4>
                         <h4 className='icons'>
                             <MdLocationOn className='iconstyle' style={{ width: '40px', marginBottom: "-8px" }} />
                             <h3>IIITV-ICD Eduaction Hub,Diu (U.T) 362520</h3>
